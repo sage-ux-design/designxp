@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible, Doto, Geist_Mono, Press_Start_2P } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Providers } from "@/components/providers";
 import "./globals.css";
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col font-sans text-[17px] leading-relaxed">
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
