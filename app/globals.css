@@ -1,0 +1,511 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-atkinson);
+  --font-pixel: var(--font-press-start);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-press-start);
+  --color-gold: var(--gold);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-lavender: var(--lavender);
+  --color-cream: var(--cream);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ---------------------------------------------------------------
+   DesignXP design tokens: "Pixel Playground"
+   Colour theory from the reference art: a saturated violet-blue sky,
+   lavender tiles, pink checker floor, warm cream "duck white" panels
+   with near-black plum outlines, and bright item colours (beak orange,
+   star yellow, hot pink, sky blue, bush green) for actions and rewards.
+   The arcade cabinet stays as the frame, now in violet and pink.
+---------------------------------------------------------------- */
+:root {
+  --radius: 0rem;
+
+  /* Cabinet frame */
+  --cab: #3d2fa6;
+  --cab-deep: #2a1f80;
+  --cab-edge: #6a5ae0;
+  --cab-glow: #fc65a7;
+  --marquee: #fc65a7;
+  --marquee-deep: #e2438b;
+  --bezel: #261527;
+
+  /* Screen = the violet sky */
+  --screen: #6656e0;
+  --screen-tile: #7565ec;
+  --phosphor: #ffffff;
+
+  /* Plum ink outline and text */
+  --ink: #261527;
+
+  /* Cream panels */
+  --paper: #fffaf3;
+  --paper-2: #f6eeff;
+  --paper-3: #e8dcff;
+
+  /* Item colours */
+  --yellow: #fcd63a;
+  --yellow-deep: #fda405;
+  --orange: #fda405;
+  --pink: #fc65a7;
+  --blue: #4aa8f0;
+  --cyan: #4fc8ff;
+  --green: #5fb84a;
+  --red: #f25a4a;
+
+  /* World (pixel scenes) */
+  --sky: #6656e0;
+  --sky-deep: #4b48bb;
+  --sky-tile: #7565ec;
+  --floor-a: #e48ad0;
+  --floor-b: #c25cae;
+
+  /* Text roles: dark text on cream, light text on sky / ink */
+  --light: #fffaf3;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --surface: var(--paper);
+  --surface-2: var(--paper-2);
+  --cream: var(--ink);
+  --lavender: #5534ab;
+  --amber: #8a4b00;
+  --gold: var(--yellow);
+  --success: #16833a;
+  --danger: #c8223a;
+
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: #5a4ec8;
+  --primary-foreground: #ffffff;
+  --secondary: var(--paper-2);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-2);
+  --muted-foreground: #66506a;
+  --accent: var(--paper-3);
+  --accent-foreground: var(--ink);
+  --destructive: #c8223a;
+  --border: var(--ink);
+  --input: var(--ink);
+  --ring: var(--ink);
+
+  --mode-spot: #fda405;
+  --mode-wwyd: #7b6cf0;
+  --mode-lingo: #4aa8f0;
+  --mode-research: #5fb84a;
+  --mode-copy: #fc65a7;
+  --mode-product: #fcd63a;
+  --mode-spot-ink: #a84a00;
+  --mode-wwyd-ink: #4b3fb0;
+  --mode-lingo-ink: #0b6a97;
+  --mode-research-ink: #2f7a2a;
+  --mode-copy-ink: #b0185d;
+  --mode-product-ink: #8a5000;
+
+  --chart-1: #5a4ec8;
+  --chart-2: #4aa8f0;
+  --chart-3: #fcd63a;
+  --chart-4: #5fb84a;
+  --chart-5: #f25a4a;
+
+  --sidebar: var(--paper);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: #5a4ec8;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: var(--paper-2);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--ink);
+  --sidebar-ring: var(--ink);
+
+  /* Motion: one strong ease-out and short durations */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --dur-press: 120ms;
+  --dur-ui: 180ms;
+  --dur-enter: 280ms;
+}
+
+/* Twilight: the same playground after sunset. */
+html[data-theme="dusk"] {
+  --cab: #24195e;
+  --cab-deep: #170f40;
+  --cab-edge: #3d2fa6;
+  --marquee: #c75bd9;
+  --marquee-deep: #9a3cb0;
+  --screen: #3b2f9e;
+  --screen-tile: #463aab;
+  --sky: #3b2f9e;
+}
+
+/* High contrast: flat colours, white panels, black ink. */
+html[data-theme="contrast"] {
+  --cab: #1a1240;
+  --cab-deep: #1a1240;
+  --cab-edge: #1a1240;
+  --cab-glow: transparent;
+  --screen: #2a1f6b;
+  --screen-tile: #2a1f6b;
+  --paper: #ffffff;
+  --paper-2: #f3f0ff;
+  --ink: #000000;
+  --muted-foreground: #3b3358;
+  --lavender: #3d1fb8;
+  --amber: #6e3d00;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* ---------------------------------------------------------------
+   DesignXP global styles: the cabinet frame, marquee and screen
+---------------------------------------------------------------- */
+@theme inline {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-sky: var(--sky);
+  --color-amber: var(--amber);
+  --color-yellow: var(--yellow);
+  --color-orange: var(--orange);
+  --color-pink: var(--pink);
+  --color-blue: var(--blue);
+  --color-cyan: var(--cyan);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-cab: var(--cab);
+  --color-marquee: var(--marquee);
+  --color-screen: var(--screen);
+  --color-light: var(--light);
+  --font-led: var(--font-doto);
+}
+
+html {
+  background: var(--cab-deep);
+}
+
+/* The page is the cabinet: violet with a soft pink light from the marquee. */
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+  color: var(--ink);
+  background-color: var(--cab);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.12) 1px, transparent 1.5px),
+    radial-gradient(120% 50% at 50% 0%, color-mix(in srgb, var(--cab-glow) 22%, transparent), transparent 60%);
+  background-size: 12px 12px, auto;
+}
+
+:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--yellow);
+  color: var(--ink);
+}
+
+.font-pixel {
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  letter-spacing: 0.02em;
+}
+
+.font-led {
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  letter-spacing: 0.02em;
+  font-size: 0.72em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Cabinet parts ---------- */
+
+/* Hot-pink LED marquee at the top of the cabinet. */
+.marquee {
+  position: relative;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.16) 1px, transparent 1.5px) 0 0 / 6px 6px,
+    linear-gradient(180deg, var(--marquee), var(--marquee-deep));
+  border-bottom: 6px solid var(--bezel);
+  box-shadow: 0 0 32px color-mix(in srgb, var(--marquee) 45%, transparent);
+}
+
+/* The CRT: bezel, rounded glass, phosphor dot grid and gentle scanlines. */
+.crt {
+  position: relative;
+  background-color: var(--screen);
+  background-image:
+    linear-gradient(var(--screen-tile) 2px, transparent 2px),
+    linear-gradient(90deg, var(--screen-tile) 2px, transparent 2px);
+  background-size: 48px 48px;
+  border: 10px solid var(--bezel);
+  border-radius: 28px;
+  box-shadow:
+    inset 0 6px 0 rgba(255, 255, 255, 0.18),
+    0 0 0 4px var(--cab-edge),
+    0 20px 50px rgba(20, 10, 60, 0.45);
+}
+html[data-crt="on"] .crt::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  background: repeating-linear-gradient(to bottom, transparent 0 3px, rgba(38, 21, 39, 0.06) 3px 4px);
+  z-index: 50;
+}
+
+/* Bottom control deck. */
+.deck {
+  background: linear-gradient(180deg, var(--cab-edge), var(--cab) 40%, var(--cab-deep));
+  border-top: 6px solid var(--bezel);
+}
+
+/* ---------- Panels on the screen ---------- */
+
+.pixel-frame {
+  position: relative;
+  background: var(--paper);
+  color: var(--ink);
+  border: 4px solid var(--ink);
+  box-shadow: 0 6px 0 0 var(--ink);
+}
+
+.pixel-shadow {
+  box-shadow:
+    0 6px 0 0 var(--ink),
+    8px 14px 0 0 rgba(38, 21, 39, 0.22);
+}
+
+.pixel-render {
+  image-rendering: pixelated;
+  shape-rendering: crispEdges;
+}
+
+/* LED dot-matrix display type for titles and scores. */
+.title-type {
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  color: var(--light);
+  -webkit-text-stroke: 8px var(--ink);
+  paint-order: stroke fill;
+  text-shadow: 0 6px 0 var(--ink);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+.title-type.is-yellow { color: var(--yellow); }
+.title-type.is-cyan { color: var(--cyan); }
+.title-type.is-pink { color: var(--pink); }
+.title-type.is-small {
+  -webkit-text-stroke-width: 5px;
+  text-shadow: 0 4px 0 var(--ink);
+}
+
+/* Small label plate. */
+.sign {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--ink);
+  color: var(--yellow);
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+/* Arcade action button: coloured cap, ink rim, bevel, travel on press. */
+.gbtn {
+  --block-bg: var(--paper);
+  --block-fg: var(--ink);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--block-bg);
+  color: var(--block-fg);
+  border: 4px solid var(--ink);
+  border-radius: 6px;
+  box-shadow:
+    inset 0 4px 0 0 rgba(255, 255, 255, 0.55),
+    inset 0 -6px 0 0 rgba(38, 21, 39, 0.18),
+    0 6px 0 0 var(--ink);
+  transition:
+    transform var(--dur-press) var(--ease-out),
+    box-shadow var(--dur-press) var(--ease-out),
+    filter var(--dur-ui) ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (hover: hover) and (pointer: fine) {
+  .gbtn:hover:not(:disabled):not([aria-disabled="true"]) {
+    filter: brightness(1.08);
+  }
+}
+.gbtn:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: translateY(4px);
+  box-shadow:
+    inset 0 4px 0 0 rgba(255, 255, 255, 0.35),
+    inset 0 -4px 0 0 rgba(0, 0, 0, 0.25),
+    0 2px 0 0 var(--ink);
+}
+.gbtn:disabled,
+.gbtn[aria-disabled="true"] {
+  cursor: not-allowed;
+  filter: saturate(0.2) brightness(0.8);
+  opacity: 0.7;
+}
+.gbtn-yellow { --block-bg: var(--yellow); --block-fg: var(--ink); }
+.gbtn-orange { --block-bg: var(--orange); --block-fg: var(--ink); }
+.gbtn-pink { --block-bg: var(--pink); --block-fg: var(--ink); }
+.gbtn-blue { --block-bg: var(--blue); --block-fg: #ffffff; }
+.gbtn-green { --block-bg: var(--green); --block-fg: var(--ink); }
+.gbtn-violet { --block-bg: #6c5cf0; --block-fg: #ffffff; }
+.gbtn-red { --block-bg: var(--red); --block-fg: #ffffff; }
+
+/* Round arcade push-button (decorative cap or icon button). */
+.arcade-btn {
+  --btn: var(--red);
+  display: inline-grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--btn) 55%, white), var(--btn) 45%, color-mix(in srgb, var(--btn) 70%, black));
+  border: 4px solid var(--ink);
+  box-shadow: 0 6px 0 0 var(--ink);
+  transition: transform var(--dur-press) var(--ease-out), box-shadow var(--dur-press) var(--ease-out);
+}
+button.arcade-btn:active,
+a.arcade-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 0 var(--ink);
+}
+
+/* HUD readout chip. */
+.hud {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px 6px 6px;
+  background: var(--ink);
+  color: var(--light);
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  font-size: 11px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  border-radius: 4px;
+}
+
+@keyframes dx-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+@keyframes dx-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes dx-pop {
+  from { transform: scale(0.92); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes dx-rise {
+  from { transform: translateY(8px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes dx-confetti {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(110vh) rotate(540deg); opacity: 0.9; }
+}
+@keyframes dx-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+@keyframes dx-marquee-lights {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0.35; }
+}
+
+.animate-blink { animation: dx-blink 1.1s steps(1) infinite; }
+/* Idle bob for the hero character only, stepped like a two-frame sprite. */
+.animate-float { animation: dx-bob 1.2s steps(2, jump-none) infinite; }
+.animate-pop { animation: dx-pop var(--dur-enter) var(--ease-out) both; }
+.animate-rise { animation: dx-rise var(--dur-enter) var(--ease-out) both; }
+.animate-shake { animation: dx-shake 240ms var(--ease-out); }
+.animate-twinkle { animation: dx-blink 2.4s steps(1) infinite; }
+.marquee-bulb { animation: dx-marquee-lights 1.4s steps(1) infinite; }
+.marquee-bulb:nth-child(even) { animation-delay: 0.7s; }
+
+/* Reduced motion: OS preference or the Settings toggle. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}

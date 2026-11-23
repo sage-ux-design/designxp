@@ -1,0 +1,965 @@
+                                           THE PRODUCT DESIGN PLAYGROUND
+
+                    DESIGN
+                    ARCADE
+
+                50 situational questions to sharpen your UX judgment,
+                   product thinking and everyday design vocabulary.
+
+        PLAY. Make a decision. LEARN. Discover the idea behind it. LEVEL
+                      UP. Take the technique into your next project.
+
+WHAT YOU WILL PRACTICE
+
+A practical mix of product design situations. Each question has four options, one best answer, a
+concise explanation and a phrase or technique to remember.
+
+MODULE  TOPIC                              QUESTIONS
+01      Problem framing & discovery        Questions 01-05
+02      User research & validation         Questions 06-10
+03      UX psychology & interaction        Questions 11-15
+04      Information architecture & flows   Questions 16-20
+05      UI design & design systems         Questions 21-25
+06      Accessibility & inclusive design   Questions 26-30
+07      Product thinking & prioritization  Questions 31-35
+08      Metrics & experimentation          Questions 36-40
+09      Collaboration & product delivery   Questions 41-45
+10      Ethics, privacy & responsible AI   Questions 46-50
+
+HOW TO PLAY
+Read the situation, choose the best response, then check the answer and explanation. The goal is not
+to memorize jargon. It is to understand when a technique is useful and how to explain your design
+decisions.
+QUESTIONS 01-03
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 01 / PROBLEM FRAMING & DISCOVERY
+
+A food-delivery app receives complaints that checkout is "too slow." A stakeholder
+immediately asks for fewer screens. What should the designer do first?
+
+ A. Remove the address and payment steps
+ B. Inspect the checkout journey and talk to users to find where and why delays happen
+ C. Add a progress animation to make waiting feel shorter
+ D. Copy the checkout flow from the most popular competitor
+
+ RIGHT ANSWER: B
+
+ Why: The complaint describes a symptom, not its cause. Reviewing funnel data and observing users can reveal whether
+ the issue is slow loading, confusing fields, payment failures or something else.
+ TAKEAWAY: Problem framing: understand the cause before choosing a solution.
+
+ QUESTION 02 / PROBLEM FRAMING & DISCOVERY
+
+People using a budgeting app say, "I want to stop feeling surprised by bills." Which
+statement best captures the underlying Job to Be Done?
+
+ A. Add a calendar with more colors
+ B. Help me anticipate upcoming expenses so I can feel in control of my money
+ C. Send three push notifications every week
+ D. Add a dashboard with six new charts
+
+ RIGHT ANSWER: B
+
+ Why: JTBD describes the progress a person wants to make in a situation. The other options jump to specific features
+ before clarifying the outcome.
+ TAKEAWAY: JTBD: focus on the progress people are trying to make, not the feature they request.
+
+ QUESTION 03 / PROBLEM FRAMING & DISCOVERY
+
+Your team wants to launch an AI shopping assistant. You are unsure whether shoppers
+trust AI recommendations. What is the most useful next step before investing in a full
+build?
+
+ A. Build the complete assistant to see what happens
+ B. List the key assumptions and run a small test of the riskiest trust assumption
+ C. Add more AI features to make the concept impressive
+ D. Ask the engineering team which model they prefer
+
+ RIGHT ANSWER: B
+
+ Why: Assumption mapping makes uncertainty visible. Testing the riskiest assumption early helps avoid spending
+ heavily on a solution users may not trust.
+ TAKEAWAY: Riskiest assumption: test the uncertainty that could invalidate the idea.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                       2
+QUESTIONS 04-06
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 04 / PROBLEM FRAMING & DISCOVERY
+
+During an interview about a new booking flow, which question is least leading and most
+likely to produce useful evidence?
+
+ A. You liked the new booking flow, right?
+ B. Wouldn't a one-tap booking button save you time?
+ C. Tell me about the last time you booked a similar service. What happened?
+ D. Do you agree that the old flow was confusing?
+
+ RIGHT ANSWER: C
+
+ Why: Asking about a recent real experience encourages concrete examples. The other questions suggest an expected
+ answer or ask participants to agree with the interviewer.
+ TAKEAWAY: Ask about the last real experience, not what someone thinks they might do.
+
+ QUESTION 05 / PROBLEM FRAMING & DISCOVERY
+
+A team is debating two different onboarding concepts. Engineering estimates that building
+either version will take several weeks. What is a sensible way to learn which direction is
+clearer first?
+
+ A. Build both versions fully
+ B. Create lightweight clickable prototypes and test representative tasks with target users
+ C. Let the loudest stakeholder choose
+ D. Pick the version with the most screens
+
+ RIGHT ANSWER: B
+
+ Why: A prototype can test comprehension and task flow before costly implementation. It is a learning tool, not a
+ miniature finished product.
+ TAKEAWAY: Prototype to learn: use the lowest-cost representation that can answer the question.
+
+ QUESTION 06 / USER RESEARCH & VALIDATION
+
+Analytics show that 38% of users abandon a profile form. The team knows where drop-off
+happens but not why. What should the designer do next?
+
+ A. Run usability sessions or interviews focused on the form
+ B. Increase the number of dashboard charts
+ C. Assume users dislike the brand colors
+ D. Remove every field without checking its purpose
+
+ RIGHT ANSWER: A
+
+ Why: Quantitative data reveals the scale and location of a problem. Qualitative research helps explain the reasons
+ behind the behavior.
+ TAKEAWAY: Use quantitative research to see what is happening and qualitative research to explore why.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                      3
+QUESTIONS 07-09
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 07 / USER RESEARCH & VALIDATION
+
+You are designing a medication reminder experience and need to understand how routines
+change across weekdays, weekends and travel. Which method is most suitable?
+
+ A. A one-time five-minute preference survey
+ B. A diary study in which participants record relevant moments over time
+ C. A card sort of navigation labels
+ D. A single hallway test of the home screen
+
+ RIGHT ANSWER: B
+
+ Why: A diary study captures behavior and context over time, including moments that may not be remembered
+ accurately in a one-off interview.
+ TAKEAWAY: Diary study: capture experiences as they happen, across time and context.
+
+ QUESTION 08 / USER RESEARCH & VALIDATION
+
+You want to know whether first-time users can find and apply a discount code. What
+instruction should you give participants during a usability test?
+
+ A. Click the coupon button in the top-right corner
+ B. Apply the coupon code SAVE10 to your order
+ C. Find a way to apply this coupon to your order; please think aloud as you go
+ D. Tell us whether the coupon feature looks attractive
+
+ RIGHT ANSWER: C
+
+ Why: A task gives participants a goal without revealing the interface path. This lets the researcher observe
+ discoverability and actual behavior.
+ TAKEAWAY: Test the task, not the UI instructions: do not tell participants where to click.
+
+ QUESTION 09 / USER RESEARCH & VALIDATION
+
+Interviews suggest users love a new feature, but analytics show very low repeat usage.
+What is the best research response?
+
+ A. Ignore analytics because interviews are more personal
+ B. Ignore interviews because analytics are always correct
+ C. Combine behavioral data with follow-up research to understand the gap
+ D. Announce that the feature is successful because initial feedback was positive
+
+ RIGHT ANSWER: C
+
+ Why: Triangulation compares different evidence sources. The mismatch is a clue worth investigating, not a reason to
+ discard one source.
+ TAKEAWAY: Triangulation: combine methods or evidence sources to build a more reliable picture.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                       4
+QUESTIONS 10-12
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 10 / USER RESEARCH & VALIDATION
+
+A team is redesigning a tool used by warehouse supervisors. Who should be prioritized for
+research?
+
+ A. People from the design team who have free time
+ B. Friends who use shopping apps
+ C. People who perform the warehouse supervisor tasks in the intended context
+ D. Any available office employees
+
+ RIGHT ANSWER: C
+
+ Why: Research participants should reflect the people, tasks and context relevant to the product decision. Convenience
+ alone does not make a sample useful.
+ TAKEAWAY: Recruit for relevance: match participants to the target users and real context.
+
+ QUESTION 11 / UX PSYCHOLOGY & INTERACTION
+
+A travel app has 12 optional filters. New users say the search screen feels overwhelming.
+Which redesign best applies Progressive Disclosure?
+
+ A. Show essential filters first and place advanced filters behind "More options"
+ B. Show every filter at once
+ C. Remove all advanced filters permanently
+ D. Require users to complete every filter before searching
+
+ RIGHT ANSWER: A
+
+ Why: Progressive Disclosure reveals complexity when it becomes relevant. It keeps the initial experience focused
+ without taking away advanced capabilities.
+ TAKEAWAY: Designer phrase: "Let's progressively disclose advanced options to keep the default experience focused."
+
+ QUESTION 12 / UX PSYCHOLOGY & INTERACTION
+
+A support portal asks users to remember a six-digit case number from a previous screen.
+How could the experience reduce memory effort?
+
+ A. Make the number flash briefly before hiding it
+ B. Display the case number in the current context, with a copy option
+ C. Ask users to memorize it before continuing
+ D. Replace it with a longer code
+
+ RIGHT ANSWER: B
+
+ Why: Recognition is easier than recall. Showing relevant information when it is needed reduces the burden on a user's
+ memory.
+ TAKEAWAY: Recognition over recall: make needed choices and information visible.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                         5
+QUESTIONS 13-15
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 13 / UX PSYCHOLOGY & INTERACTION
+
+In a shopping app, "Apply coupon" looks like ordinary body text, so people do not realize it
+is clickable. What change would most clearly signal the interaction?
+
+ A. Reduce the font size
+ B. Style it as a recognizable button or link with clear interactive treatment
+ C. Move it into a paragraph
+ D. Use a lighter gray than surrounding text
+
+ RIGHT ANSWER: B
+
+ Why: A signifier is a perceivable cue that communicates where or how an action can happen. A clear button or link
+ treatment makes the affordance easier to notice.
+ TAKEAWAY: Signifiers: make interactive possibilities visible rather than relying on users to guess.
+
+ QUESTION 14 / UX PSYCHOLOGY & INTERACTION
+
+A user taps "Save" on a long form. Nothing appears to happen, so they tap repeatedly.
+What should the interface do?
+
+ A. Disable the button with no explanation
+ B. Provide a clear saving state followed by a success confirmation
+ C. Navigate away immediately, even if saving is incomplete
+ D. Change the button color randomly
+
+ RIGHT ANSWER: B
+
+ Why: Timely system feedback tells people that their action was received and whether it succeeded. It reduces
+ uncertainty and repeated actions.
+ TAKEAWAY: Visibility of system status: keep users informed about what the system is doing.
+
+ QUESTION 15 / UX PSYCHOLOGY & INTERACTION
+
+A user accidentally removes an item from a task list. Which response supports recovery
+without interrupting every routine action?
+
+ A. Show a brief confirmation message with an Undo action
+ B. Permanently delete the item with no message
+ C. Require a five-step confirmation for every edit
+ D. Hide the task list after deletion
+
+ RIGHT ANSWER: A
+
+ Why: An Undo option offers a quick recovery path for a reversible action. This can prevent the cost and friction of
+ excessive confirmation dialogs.
+ TAKEAWAY: Design for recovery: make common mistakes easy to reverse.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                       6
+QUESTIONS 16-18
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 16 / INFORMATION ARCHITECTURE & FLOWS
+
+Users disagree about which items belong under "Account," "Preferences" and "Privacy."
+You want to learn how they naturally group the content. Which method fits?
+
+ A. Card sorting
+ B. A/B testing button colors
+ C. First-click testing on the current design only
+ D. A performance benchmark
+
+ RIGHT ANSWER: A
+
+ Why: Card sorting asks participants to organize content into groups and can reveal their mental models and useful
+ category labels.
+ TAKEAWAY: Card sorting: discover how people expect information to be grouped.
+
+ QUESTION 17 / INFORMATION ARCHITECTURE & FLOWS
+
+A settings menu has been reorganized. Before designing its visual interface, you want to
+check whether people can find "Download my data" in the proposed hierarchy. What
+should you run?
+
+ A. A tree test using the text-only navigation structure
+ B. A color contrast audit
+ C. A five-second logo test
+ D. A diary study about daily routines
+
+ RIGHT ANSWER: A
+
+ Why: Tree testing evaluates whether people can find information in a proposed hierarchy without the influence of visual
+ styling or page layout.
+ TAKEAWAY: Tree testing: validate findability in the structure before polishing the interface.
+
+ QUESTION 18 / INFORMATION ARCHITECTURE & FLOWS
+
+Customers say returning a product is frustrating, but the process spans the order page,
+courier pickup and refund status. What should the team map?
+
+ A. Only the return button
+ B. The end-to-end customer journey, including channels, steps and pain points
+ C. The color palette of the order page
+ D. The developer task list
+
+ RIGHT ANSWER: B
+
+ Why: A journey map makes the end-to-end experience visible across touchpoints. It helps teams identify issues that sit
+ between screens or departments.
+ TAKEAWAY: Journey mapping: design the whole experience, not just one interface.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                           7
+QUESTIONS 19-21
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 19 / INFORMATION ARCHITECTURE & FLOWS
+
+An online store has 2,000 headphones. Shoppers often know the features they need but
+cannot narrow the results. What would help most?
+
+ A. Add relevant filters such as price, connection type and noise cancellation
+ B. Randomize the result order
+ C. Hide product specifications
+ D. Show fewer products without explaining why
+
+ RIGHT ANSWER: A
+
+ Why: Faceted filters let people progressively narrow a large set using attributes relevant to their decision. They should
+ use clear labels and reflect real product data.
+ TAKEAWAY: Faceted navigation: help users narrow large collections by meaningful attributes.
+
+ QUESTION 20 / INFORMATION ARCHITECTURE & FLOWS
+
+A new project-management account has no projects yet. Which empty state best helps a
+first-time user?
+
+ A. A completely blank page
+ B. "No data" with no next step
+ C. A short explanation of what belongs here, plus a clear "Create your first project" action
+ D. A long technical explanation of the database
+
+ RIGHT ANSWER: C
+
+ Why: A useful empty state explains the situation and gives the user a next step. It can turn a blank screen into guided
+ onboarding.
+ TAKEAWAY: Empty-state design: explain, reassure and guide the next action.
+
+ QUESTION 21 / UI DESIGN & DESIGN SYSTEMS
+
+On a donation page, the primary action is difficult to notice because the heading, helper
+text, secondary links and button all have similar visual weight. What should the designer
+do?
+
+ A. Increase the number of decorative elements
+ B. Create a clearer hierarchy using size, contrast, spacing and emphasis
+ C. Make every element bold
+ D. Remove all supporting information
+
+ RIGHT ANSWER: B
+
+ Why: Visual hierarchy helps people understand what is most important and what to do next. Multiple competing focal
+ points weaken that guidance.
+ TAKEAWAY: Visual hierarchy: make the most important action easiest to find.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                             8
+QUESTIONS 22-24
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 22 / UI DESIGN & DESIGN SYSTEMS
+
+A product has six slightly different purple button colors across screens. The team wants
+consistent updates without editing each screen individually. What should it establish?
+
+ A. Design tokens for shared color values and semantic roles
+ B. More one-off styles
+ C. A screenshot folder
+ D. A rule that every designer picks a favorite purple
+
+ RIGHT ANSWER: A
+
+ Why: Design tokens store reusable design decisions such as color, spacing and typography values. Semantic tokens
+ make consistent changes easier across a product.
+ TAKEAWAY: Design tokens: store reusable design decisions instead of repeating raw values.
+
+ QUESTION 23 / UI DESIGN & DESIGN SYSTEMS
+
+A desktop dashboard uses a four-column data table. On a narrow phone, the columns
+become unreadable. What is the best response?
+
+ A. Shrink every text label until all columns fit
+ B. Adapt the layout for the smaller screen, prioritizing key information and suitable mobile patterns
+ C. Keep the desktop layout unchanged
+ D. Remove all data from mobile
+
+ RIGHT ANSWER: B
+
+ Why: Responsive design adapts content and interaction to the available space and context. It is not simply scaling a
+ desktop layout down.
+ TAKEAWAY: Responsive design: adapt the experience to the screen, not just the dimensions.
+
+ QUESTION 24 / UI DESIGN & DESIGN SYSTEMS
+
+A dashboard marks overdue tasks in red and completed tasks in green. Some users cannot
+distinguish the colors. What should be added?
+
+ A. More shades of red and green only
+ B. Text labels or icons so status is not communicated by color alone
+ C. Smaller labels
+ D. Remove status information entirely
+
+ RIGHT ANSWER: B
+
+ Why: Color should not be the only way information is conveyed. Additional labels, symbols or patterns make status
+ perceivable to more people.
+ TAKEAWAY: Redundant encoding: communicate important meaning in more than one visual way.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                        9
+QUESTIONS 25-27
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 25 / UI DESIGN & DESIGN SYSTEMS
+
+A design system has separate button components for every color and size combination.
+Updates are becoming inconsistent. What is a better model?
+
+ A. Create a reusable button component with clearly defined variants and states
+ B. Duplicate every button on every screen
+ C. Stop documenting button behavior
+ D. Use screenshots instead of components
+
+ RIGHT ANSWER: A
+
+ Why: A component with controlled variants and states provides reuse while allowing legitimate differences, such as
+ primary, secondary, disabled and loading.
+ TAKEAWAY: Component variants: reuse a reliable base while documenting meaningful differences.
+
+ QUESTION 26 / ACCESSIBILITY & INCLUSIVE DESIGN
+
+A modal dialog opens, but keyboard users can still tab through links behind it. What should
+the team fix?
+
+ A. Trap focus appropriately within the modal while it is open, and return focus when it closes
+ B. Remove the close button
+ C. Make the modal open only on hover
+ D. Hide the visible focus indicator
+
+ RIGHT ANSWER: A
+
+ Why: A modal dialog should manage keyboard focus so users can interact with its content without accidentally moving
+ behind it. Focus should return to the invoking control when appropriate.
+ TAKEAWAY: Focus management: keep keyboard navigation in the active task context.
+
+ QUESTION 27 / ACCESSIBILITY & INCLUSIVE DESIGN
+
+A product uses pale gray text on a white background for important instructions. Some
+users struggle to read it. What should be checked first?
+
+ A. Whether the font is decorative
+ B. Text and background contrast against accessibility requirements
+ C. Whether the page has enough animations
+ D. Whether the text is centered
+
+ RIGHT ANSWER: B
+
+ Why: Insufficient contrast can make text difficult to perceive. Check the actual foreground and background contrast
+ and adjust the colors while preserving the intended visual hierarchy.
+ TAKEAWAY: Contrast check: visual subtlety should not come at the cost of readability.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                       10
+QUESTIONS 28-30
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 28 / ACCESSIBILITY & INCLUSIVE DESIGN
+
+A sign-up form uses placeholder text as the only label for each input. Once users start
+typing, the hints disappear. What is the better pattern?
+
+ A. Keep a persistent visible label associated with each input
+ B. Remove all labels
+ C. Use a different placeholder color for every field
+ D. Put all field names in the page footer
+
+ RIGHT ANSWER: A
+
+ Why: Persistent labels remain available while users enter data and provide a reliable name for assistive technologies
+ when correctly associated with inputs.
+ TAKEAWAY: Persistent labels: do not make users rely on disappearing hints to understand a field.
+
+ QUESTION 29 / ACCESSIBILITY & INCLUSIVE DESIGN
+
+Users frequently miss a tiny close icon in a mobile dialog. What should the designer
+consider?
+
+ A. Increase the interactive target area and provide enough separation from nearby controls
+ B. Make the icon thinner
+ C. Move it closer to other small icons
+ D. Remove the accessible name
+
+ RIGHT ANSWER: A
+
+ Why: Larger, well-spaced touch targets are easier to activate, especially for users with motor impairments or when
+ using a device one-handed.
+ TAKEAWAY: Touch target: design for fingers and real-world conditions, not just the visible icon.
+
+ QUESTION 30 / ACCESSIBILITY & INCLUSIVE DESIGN
+
+An automated accessibility checker reports no serious issues. Can the team conclude the
+flow is accessible?
+
+ A. Yes, automated tools detect every accessibility problem
+ B. No. Combine automated checks with keyboard, assistive-technology and user testing
+ C. Yes, if the design uses a popular font
+ D. No. Automated tools should never be used
+
+ RIGHT ANSWER: B
+
+ Why: Automated tools catch many detectable issues but cannot evaluate every aspect of understanding, task
+ completion or assistive-technology behavior.
+ TAKEAWAY: Accessibility is a practice: automate what you can and test the experience with people.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                         11
+QUESTIONS 31-33
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 31 / PRODUCT THINKING & PRIORITIZATION
+
+A major customer asks for a customizable dashboard. Interviews reveal that their real
+difficulty is finding two critical reports quickly. What should the product designer do?
+
+ A. Build the customizable dashboard exactly as requested
+ B. Explore the report-finding problem and test simpler ways to make those reports easier to access
+ C. Reject the request without investigation
+ D. Add every report to the home screen
+
+ RIGHT ANSWER: B
+
+ Why: Feature requests are clues, not complete requirements. Understanding the underlying job may reveal a simpler
+ solution that serves more users.
+ TAKEAWAY: Reframe the request: solve the user problem, not automatically the suggested feature.
+
+ QUESTION 32 / PRODUCT THINKING & PRIORITIZATION
+
+A startup wants to test whether local stores will accept online reservations. Which option
+is the best MVP approach?
+
+ A. Build a complete marketplace with loyalty, reviews and recommendations
+ B. Test the core reservation journey with a small number of stores and customers
+ C. Spend the entire budget polishing the logo
+ D. Wait until every possible feature is specified
+
+ RIGHT ANSWER: B
+
+ Why: A Minimum Viable Product is the smallest useful product or experiment that can test an important assumption
+ and generate learning. It is not simply the smallest number of features.
+ TAKEAWAY: MVP: minimize the build while maximizing validated learning.
+
+ QUESTION 33 / PRODUCT THINKING & PRIORITIZATION
+
+Your team has capacity for one improvement. Option A is requested by one executive but
+has little evidence. Option B addresses a frequent user problem and is aligned with the
+product goal. What should guide the decision?
+
+ A. Seniority of the person requesting the feature
+ B. Evidence of user impact, strategic alignment, effort and risk
+ C. Which option has the more exciting name
+ D. Whichever option is easiest to present
+
+ RIGHT ANSWER: B
+
+ Why: Prioritization should make trade-offs explicit. User impact, strategy, confidence, effort and risk provide a stronger
+ basis than hierarchy or enthusiasm alone.
+ TAKEAWAY: Prioritization is a trade-off: compare value, evidence, effort and strategic fit.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                              12
+QUESTIONS 34-36
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 34 / PRODUCT THINKING & PRIORITIZATION
+
+Users love a proposed service and find it easy to use. However, each transaction costs the
+company more to deliver than it earns. Which product risk is most clearly unresolved?
+
+ A. Usability risk
+ B. Value risk
+ C. Business viability risk
+ D. Visual design risk
+
+ RIGHT ANSWER: C
+
+ Why: Viability asks whether the solution can work for the business, including its economics and operating model. Strong
+ desirability and usability do not guarantee sustainable value.
+ TAKEAWAY: Product viability: a product must create value in a way the business can sustain.
+
+ QUESTION 35 / PRODUCT THINKING & PRIORITIZATION
+
+A product team has a goal to increase successful first-week activation. They have already
+collected several user pain points and possible features. What structure can help connect
+the outcome to opportunities, solutions and experiments?
+
+ A. Opportunity Solution Tree
+ B. A mood board
+ C. A site map alone
+ D. A list of engineering estimates
+
+ RIGHT ANSWER: A
+
+ Why: An Opportunity Solution Tree connects a desired outcome to customer opportunities, possible solutions and
+ experiments. It helps teams avoid jumping straight from a metric to a feature.
+ TAKEAWAY: Opportunity Solution Tree: connect outcomes to customer needs, solutions and tests.
+
+ QUESTION 36 / METRICS & EXPERIMENTATION
+
+A redesigned checkout increases the number of users who click "Pay," but payment
+failures also rise. What should the team do?
+
+ A. Declare success based on button clicks
+ B. Review the primary outcome together with guardrail metrics such as successful payments and errors
+ C. Hide the payment-failure metric
+ D. Stop measuring checkout performance
+
+ RIGHT ANSWER: B
+
+ Why: A guardrail metric helps detect negative side effects while optimizing a primary outcome. Clicks alone do not
+ prove that users completed a successful purchase.
+ TAKEAWAY: Guardrail metrics: improve one outcome without quietly damaging another.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                           13
+QUESTIONS 37-39
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 37 / METRICS & EXPERIMENTATION
+
+Many users start a subscription flow, but few reach the confirmation screen. You need to
+identify the step with the biggest loss. What should you examine?
+
+ A. A step-by-step conversion funnel, segmented where useful
+ B. The company logo engagement rate
+ C. The total number of app downloads only
+ D. The average screen brightness
+
+ RIGHT ANSWER: A
+
+ Why: Funnel analysis measures movement through a sequence of steps and helps identify where users drop off.
+ Segmentation can reveal whether the issue affects particular devices or user groups.
+ TAKEAWAY: Funnel analysis: find where progress breaks down, then investigate why.
+
+ QUESTION 38 / METRICS & EXPERIMENTATION
+
+An A/B test has run for one day and version B is briefly ahead. The sample is small and
+weekday behavior may differ. What is the best next step?
+
+ A. Ship B immediately
+ B. Continue according to a pre-defined test plan until there is enough reliable evidence, while monitoring guardrails
+ C. Change the test variants every few hours
+ D. Stop the test because the first result is exciting
+
+ RIGHT ANSWER: B
+
+ Why: Early fluctuations in a small sample can be misleading. A sound experiment uses a planned duration or stopping
+ rule, adequate evidence and relevant guardrail checks.
+ TAKEAWAY: Experiment discipline: decide how you will judge the test before looking for a winner.
+
+ QUESTION 39 / METRICS & EXPERIMENTATION
+
+A collaboration app wants a metric that reflects the core value users receive. Which is the
+best starting point for a North Star Metric?
+
+ A. Number of times the logo is displayed
+ B. Number of meaningful projects that teams successfully complete using the product
+ C. Total number of color themes available
+ D. Number of internal meetings held by the company
+
+ RIGHT ANSWER: B
+
+ Why: A North Star Metric should represent the value delivered to customers and connect to sustainable product growth.
+ The exact metric depends on the product's value proposition.
+ TAKEAWAY: North Star Metric: measure value received, not activity that merely looks impressive.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                         14
+QUESTIONS 40-42
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 40 / METRICS & EXPERIMENTATION
+
+A fitness app has many new sign-ups, but the team wants to know whether users return in
+the weeks after joining. Which analysis is most useful?
+
+ A. Retention cohorts grouped by sign-up period
+ B. A count of all downloads since launch
+ C. The number of buttons on the home screen
+ D. The total size of the app store listing
+
+ RIGHT ANSWER: A
+
+ Why: Cohort retention tracks groups of users over time, helping the team see whether people continue to return after
+ first using the product.
+ TAKEAWAY: Cohort analysis: compare how groups behave over time, not just totals.
+
+ QUESTION 41 / COLLABORATION & PRODUCT DELIVERY
+
+An engineer says a proposed animation will be expensive and may slow down older
+devices. What is the best response from the designer?
+
+ A. Insist that the mockup must be implemented exactly
+ B. Understand the user purpose, explore lighter alternatives and agree on an acceptable experience with engineering
+ C. Remove all motion without discussion
+ D. Ask the stakeholder to overrule engineering
+
+ RIGHT ANSWER: B
+
+ Why: Design and engineering should collaborate on the outcome and constraints. A simpler implementation may
+ preserve the user benefit with lower performance or delivery cost.
+ TAKEAWAY: Collaborative feasibility: protect the user outcome while adapting the implementation.
+
+ QUESTION 42 / COLLABORATION & PRODUCT DELIVERY
+
+A developer receives a polished screen but is unsure how loading, error, disabled and
+success states should behave. What should the designer provide?
+
+ A. Only a higher-resolution screenshot
+ B. Component states, interaction behavior, edge cases and relevant responsive rules
+ C. A link to an unrelated inspiration board
+ D. A note saying "use your judgment"
+
+ RIGHT ANSWER: B
+
+ Why: A useful handoff communicates behavior and edge cases, not just appearance. Shared components and clear
+ acceptance criteria reduce implementation ambiguity.
+ TAKEAWAY: Design handoff: specify states and behavior, not only the happy-path screen.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                        15
+QUESTIONS 43-45
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 43 / COLLABORATION & PRODUCT DELIVERY
+
+In a release candidate, the primary button wraps onto two lines on a supported small
+phone and overlaps nearby text. What should the designer do?
+
+ A. Ignore it because the desktop version is correct
+ B. Reproduce the issue, document the device and conditions, assess severity and work with engineering on a fix
+ C. Change the design system without checking other screens
+ D. Ask users to rotate their phones permanently
+
+ RIGHT ANSWER: B
+
+ Why: Design QA checks the implemented experience against intended behavior across supported contexts. Clear
+ reproduction details help the team resolve the issue efficiently.
+ TAKEAWAY: Design QA: verify the real build across the conditions users actually experience.
+
+ QUESTION 44 / COLLABORATION & PRODUCT DELIVERY
+
+A stakeholder says, "Make the primary button green. Green feels more trustworthy." There
+is no evidence yet that color is the issue. What should the designer do?
+
+ A. Change it immediately because the stakeholder is senior
+ B. Clarify the goal, share relevant evidence and test the hypothesis if the decision matters
+ C. Refuse every visual suggestion
+ D. Add green to every component
+
+ RIGHT ANSWER: B
+
+ Why: A design critique should connect opinions to user needs, product goals and evidence. A stakeholder hypothesis
+ can be tested without treating preference as proof.
+ TAKEAWAY: Evidence-led critique: turn opinions into hypotheses that can be examined.
+
+ QUESTION 45 / COLLABORATION & PRODUCT DELIVERY
+
+A launch date is fixed and the team must reduce scope. Which approach best protects the
+product experience?
+
+ A. Remove random screens until the project fits
+ B. Protect the core user journey and essential states, then defer lower-value enhancements
+ C. Keep every feature but remove usability testing
+ D. Ship incomplete payment and error flows
+
+ RIGHT ANSWER: B
+
+ Why: Scope reduction should preserve the product's essential value and safe completion of core tasks. Lower-priority
+ enhancements can be staged for later releases.
+ TAKEAWAY: Scope the release around the core journey, not around a random feature count.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                        16
+QUESTIONS 46-48
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 46 / ETHICS, PRIVACY & RESPONSIBLE AI
+
+A subscription app makes signing up easy but hides cancellation under several confusing
+menus. What is the most responsible design response?
+
+ A. Make cancellation equally clear and reasonably easy to find
+ B. Add more steps to discourage cancellation
+ C. Rename cancellation as an unrelated settings option
+ D. Use guilt-based messages to stop users leaving
+
+ RIGHT ANSWER: A
+
+ Why: A design should not manipulate users into staying. Clear, accessible cancellation supports user autonomy and
+ trust.
+ TAKEAWAY: Avoid dark patterns: do not use interface friction to undermine informed choice.
+
+ QUESTION 47 / ETHICS, PRIVACY & RESPONSIBLE AI
+
+A photo-editing app asks for camera access immediately on launch, before the user tries to
+take a photo. What is a better approach?
+
+ A. Ask at the moment the user tries to use the camera and explain why access is needed
+ B. Ask for every permission at first launch
+ C. Hide the purpose of the permission request
+ D. Block the entire app until every permission is granted
+
+ RIGHT ANSWER: A
+
+ Why: Contextual permission requests explain the value at the moment it is relevant. This supports informed choice and
+ can improve comprehension.
+ TAKEAWAY: Just-in-time permission: ask when needed and explain the benefit clearly.
+
+ QUESTION 48 / ETHICS, PRIVACY & RESPONSIBLE AI
+
+An AI assistant recommends a financial action, but its confidence is low and the user could
+lose money. What should the product do?
+
+ A. Present the recommendation as certain to encourage action
+ B. Communicate uncertainty and limitations, provide relevant context and keep the user in control of the decision
+ C. Hide that AI generated the recommendation
+ D. Automatically execute the action without confirmation
+
+ RIGHT ANSWER: B
+
+ Why: High-impact recommendations need appropriate transparency, uncertainty communication and user control. The
+ interface should not imply confidence that the system does not have.
+ TAKEAWAY: Responsible AI: make limitations visible and preserve meaningful human control.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                         17
+QUESTIONS 49-50
+
+Choose the strongest response for each situation. Answers and learning notes follow each question.
+
+ QUESTION 49 / ETHICS, PRIVACY & RESPONSIBLE AI
+
+A simple event-booking app asks for a user's exact date of birth, home address and
+employer, even though none is needed to book a ticket. What should the designer
+recommend?
+
+ A. Collect everything in case it becomes useful later
+ B. Collect only the data needed for a clear purpose and explain that purpose to users
+ C. Make all fields mandatory
+ D. Hide the data collection in the terms page
+
+ RIGHT ANSWER: B
+
+ Why: Data minimization limits collection to what is necessary for the stated purpose. Less unnecessary data reduces
+ privacy risk and builds trust.
+ TAKEAWAY: Data minimization: if the product does not need the data, do not collect it.
+
+ QUESTION 50 / ETHICS, PRIVACY & RESPONSIBLE AI
+
+An AI assistant drafts a message to a customer and can send it automatically. The message
+may include pricing and delivery commitments. What is the safer interaction?
+
+ A. Send every generated message immediately
+ B. Show the draft, highlight important details and ask the user to review and confirm before sending
+ C. Hide the generated text after creation
+ D. Remove the ability to edit the message
+
+ RIGHT ANSWER: B
+
+ Why: When an AI action can create a meaningful external consequence, review and confirmation give people a chance
+ to catch errors and retain control.
+ TAKEAWAY: Human-in-the-loop: keep people involved when automated actions have real consequences.
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                                       18
+QUICK ANSWER KEY
+
+Use this page to check your choices at a glance. Full explanations are included with each question.
+
+Q ANSWER  CONCEPT                                Q ANSWER  CONCEPT
+01 B      Start with the problem                 26 A      Keyboard accessibility
+02 B      Jobs to Be Done (JTBD)                 27 B      Color contrast
+03 B      Assumption mapping                     28 A      Form labels
+04 C      Neutral research questions             29 A      Touch target usability
+05 B      Prototype before building              30 B      Accessibility testing
+06 A      Qualitative vs quantitative            31 B      Feature requests vs user problems
+07 B      Diary study                            32 B      MVP
+08 C      Usability testing                      33 B      Prioritization trade-offs
+09 C      Triangulation                          34 C      Viability risk
+10 C      Recruiting the right participants      35 A      Opportunity Solution Tree
+11 A      Progressive disclosure                 36 B      Guardrail metrics
+12 B      Recognition over recall                37 A      Funnel analysis
+13 B      Signifiers                             38 B      A/B test discipline
+14 B      System feedback                        39 B      North Star Metric
+15 A      Error prevention and recovery          40 A      Retention cohorts
+16 A      Card sorting                           41 B      Feasibility collaboration
+17 A      Tree testing                           42 B      Design handoff
+18 B      Journey mapping                        43 B      Design QA
+19 A      Search and filters                     44 B      Evidence-led critique
+20 C      Empty states                           45 B      Scope management
+21 B      Visual hierarchy                       46 A      Dark patterns
+22 A      Design tokens                          47 A      Permission timing
+23 B      Responsive design                      48 B      AI transparency
+24 B      Accessible visual encoding             49 B      Data minimization
+                                                           Human confirmation for
+25 A      Component variants                     50 B      consequential actions
+
+REMEMBER
+A strong product designer does more than make screens look good. They understand the problem,
+gather evidence, make thoughtful trade-offs, consider different users and measure whether the
+experience creates value.
+
+                                          END OF FIRST QUEST / KEEP LEARNING, KEEP DESIGNING
+
+DESIGN ARCADE / PRODUCT DESIGN SITUATIONAL QUIZ                                                      19
+

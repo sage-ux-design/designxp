@@ -1,0 +1,11 @@
+/* Press Start 2P is loaded with next/font in app/layout.tsx and exposed as --font-pixel. */
+.retro {
+  font-family: var(--font-press-start), ui-monospace, monospace;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

@@ -1,0 +1,1302 @@
+[
+  {
+    "number": 1,
+    "module": "PROBLEM FRAMING & DISCOVERY",
+    "question": "A food-delivery app receives complaints that checkout is \"too slow.\" A stakeholder immediately asks for fewer screens. What should the designer do first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remove the address and payment steps"
+      },
+      {
+        "key": "B",
+        "text": "Inspect the checkout journey and talk to users to find where and why delays happen"
+      },
+      {
+        "key": "C",
+        "text": "Add a progress animation to make waiting feel shorter"
+      },
+      {
+        "key": "D",
+        "text": "Copy the checkout flow from the most popular competitor"
+      }
+    ],
+    "answer": "B",
+    "why": "The complaint describes a symptom, not its cause. Reviewing funnel data and observing users can reveal whether the issue is slow loading, confusing fields, payment failures or something else.",
+    "takeaway": "Problem framing: understand the cause before choosing a solution."
+  },
+  {
+    "number": 2,
+    "module": "PROBLEM FRAMING & DISCOVERY",
+    "question": "People using a budgeting app say, \"I want to stop feeling surprised by bills.\" Which statement best captures the underlying Job to Be Done?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add a calendar with more colors"
+      },
+      {
+        "key": "B",
+        "text": "Help me anticipate upcoming expenses so I can feel in control of my money"
+      },
+      {
+        "key": "C",
+        "text": "Send three push notifications every week"
+      },
+      {
+        "key": "D",
+        "text": "Add a dashboard with six new charts"
+      }
+    ],
+    "answer": "B",
+    "why": "JTBD describes the progress a person wants to make in a situation. The other options jump to specific features before clarifying the outcome.",
+    "takeaway": "JTBD: focus on the progress people are trying to make, not the feature they request."
+  },
+  {
+    "number": 3,
+    "module": "PROBLEM FRAMING & DISCOVERY",
+    "question": "Your team wants to launch an AI shopping assistant. You are unsure whether shoppers trust AI recommendations. What is the most useful next step before investing in a full build?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Build the complete assistant to see what happens"
+      },
+      {
+        "key": "B",
+        "text": "List the key assumptions and run a small test of the riskiest trust assumption"
+      },
+      {
+        "key": "C",
+        "text": "Add more AI features to make the concept impressive"
+      },
+      {
+        "key": "D",
+        "text": "Ask the engineering team which model they prefer"
+      }
+    ],
+    "answer": "B",
+    "why": "Assumption mapping makes uncertainty visible. Testing the riskiest assumption early helps avoid spending heavily on a solution users may not trust.",
+    "takeaway": "Riskiest assumption: test the uncertainty that could invalidate the idea."
+  },
+  {
+    "number": 4,
+    "module": "PROBLEM FRAMING & DISCOVERY",
+    "question": "During an interview about a new booking flow, which question is least leading and most likely to produce useful evidence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "You liked the new booking flow, right?"
+      },
+      {
+        "key": "B",
+        "text": "Wouldn't a one-tap booking button save you time?"
+      },
+      {
+        "key": "C",
+        "text": "Tell me about the last time you booked a similar service. What happened?"
+      },
+      {
+        "key": "D",
+        "text": "Do you agree that the old flow was confusing?"
+      }
+    ],
+    "answer": "C",
+    "why": "Asking about a recent real experience encourages concrete examples. The other questions suggest an expected answer or ask participants to agree with the interviewer.",
+    "takeaway": "Ask about the last real experience, not what someone thinks they might do."
+  },
+  {
+    "number": 5,
+    "module": "PROBLEM FRAMING & DISCOVERY",
+    "question": "A team is debating two different onboarding concepts. Engineering estimates that building either version will take several weeks. What is a sensible way to learn which direction is clearer first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Build both versions fully"
+      },
+      {
+        "key": "B",
+        "text": "Create lightweight clickable prototypes and test representative tasks with target users"
+      },
+      {
+        "key": "C",
+        "text": "Let the loudest stakeholder choose"
+      },
+      {
+        "key": "D",
+        "text": "Pick the version with the most screens"
+      }
+    ],
+    "answer": "B",
+    "why": "A prototype can test comprehension and task flow before costly implementation. It is a learning tool, not a miniature finished product.",
+    "takeaway": "Prototype to learn: use the lowest-cost representation that can answer the question."
+  },
+  {
+    "number": 6,
+    "module": "USER RESEARCH & VALIDATION",
+    "question": "Analytics show that 38% of users abandon a profile form. The team knows where drop-off happens but not why. What should the designer do next?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Run usability sessions or interviews focused on the form"
+      },
+      {
+        "key": "B",
+        "text": "Increase the number of dashboard charts"
+      },
+      {
+        "key": "C",
+        "text": "Assume users dislike the brand colors"
+      },
+      {
+        "key": "D",
+        "text": "Remove every field without checking its purpose"
+      }
+    ],
+    "answer": "A",
+    "why": "Quantitative data reveals the scale and location of a problem. Qualitative research helps explain the reasons behind the behavior.",
+    "takeaway": "Use quantitative research to see what is happening and qualitative research to explore why."
+  },
+  {
+    "number": 7,
+    "module": "USER RESEARCH & VALIDATION",
+    "question": "You are designing a medication reminder experience and need to understand how routines change across weekdays, weekends and travel. Which method is most suitable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A one-time five-minute preference survey"
+      },
+      {
+        "key": "B",
+        "text": "A diary study in which participants record relevant moments over time"
+      },
+      {
+        "key": "C",
+        "text": "A card sort of navigation labels"
+      },
+      {
+        "key": "D",
+        "text": "A single hallway test of the home screen"
+      }
+    ],
+    "answer": "B",
+    "why": "A diary study captures behavior and context over time, including moments that may not be remembered accurately in a one-off interview.",
+    "takeaway": "Diary study: capture experiences as they happen, across time and context."
+  },
+  {
+    "number": 8,
+    "module": "USER RESEARCH & VALIDATION",
+    "question": "You want to know whether first-time users can find and apply a discount code. What instruction should you give participants during a usability test?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Click the coupon button in the top-right corner"
+      },
+      {
+        "key": "B",
+        "text": "Apply the coupon code SAVE10 to your order"
+      },
+      {
+        "key": "C",
+        "text": "Find a way to apply this coupon to your order; please think aloud as you go"
+      },
+      {
+        "key": "D",
+        "text": "Tell us whether the coupon feature looks attractive"
+      }
+    ],
+    "answer": "C",
+    "why": "A task gives participants a goal without revealing the interface path. This lets the researcher observe discoverability and actual behavior.",
+    "takeaway": "Test the task, not the UI instructions: do not tell participants where to click."
+  },
+  {
+    "number": 9,
+    "module": "USER RESEARCH & VALIDATION",
+    "question": "Interviews suggest users love a new feature, but analytics show very low repeat usage. What is the best research response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore analytics because interviews are more personal"
+      },
+      {
+        "key": "B",
+        "text": "Ignore interviews because analytics are always correct"
+      },
+      {
+        "key": "C",
+        "text": "Combine behavioral data with follow-up research to understand the gap"
+      },
+      {
+        "key": "D",
+        "text": "Announce that the feature is successful because initial feedback was positive"
+      }
+    ],
+    "answer": "C",
+    "why": "Triangulation compares different evidence sources. The mismatch is a clue worth investigating, not a reason to discard one source.",
+    "takeaway": "Triangulation: combine methods or evidence sources to build a more reliable picture."
+  },
+  {
+    "number": 10,
+    "module": "USER RESEARCH & VALIDATION",
+    "question": "A team is redesigning a tool used by warehouse supervisors. Who should be prioritized for research?",
+    "options": [
+      {
+        "key": "A",
+        "text": "People from the design team who have free time"
+      },
+      {
+        "key": "B",
+        "text": "Friends who use shopping apps"
+      },
+      {
+        "key": "C",
+        "text": "People who perform the warehouse supervisor tasks in the intended context"
+      },
+      {
+        "key": "D",
+        "text": "Any available office employees"
+      }
+    ],
+    "answer": "C",
+    "why": "Research participants should reflect the people, tasks and context relevant to the product decision. Convenience alone does not make a sample useful.",
+    "takeaway": "Recruit for relevance: match participants to the target users and real context."
+  },
+  {
+    "number": 11,
+    "module": "UX PSYCHOLOGY & INTERACTION",
+    "question": "A travel app has 12 optional filters. New users say the search screen feels overwhelming. Which redesign best applies Progressive Disclosure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Show essential filters first and place advanced filters behind \"More options\""
+      },
+      {
+        "key": "B",
+        "text": "Show every filter at once"
+      },
+      {
+        "key": "C",
+        "text": "Remove all advanced filters permanently"
+      },
+      {
+        "key": "D",
+        "text": "Require users to complete every filter before searching"
+      }
+    ],
+    "answer": "A",
+    "why": "Progressive Disclosure reveals complexity when it becomes relevant. It keeps the initial experience focused without taking away advanced capabilities.",
+    "takeaway": "Designer phrase: \"Let's progressively disclose advanced options to keep the default experience focused.\""
+  },
+  {
+    "number": 12,
+    "module": "UX PSYCHOLOGY & INTERACTION",
+    "question": "A support portal asks users to remember a six-digit case number from a previous screen. How could the experience reduce memory effort?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Make the number flash briefly before hiding it"
+      },
+      {
+        "key": "B",
+        "text": "Display the case number in the current context, with a copy option"
+      },
+      {
+        "key": "C",
+        "text": "Ask users to memorize it before continuing"
+      },
+      {
+        "key": "D",
+        "text": "Replace it with a longer code"
+      }
+    ],
+    "answer": "B",
+    "why": "Recognition is easier than recall. Showing relevant information when it is needed reduces the burden on a user's memory.",
+    "takeaway": "Recognition over recall: make needed choices and information visible."
+  },
+  {
+    "number": 13,
+    "module": "UX PSYCHOLOGY & INTERACTION",
+    "question": "In a shopping app, \"Apply coupon\" looks like ordinary body text, so people do not realize it is clickable. What change would most clearly signal the interaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce the font size"
+      },
+      {
+        "key": "B",
+        "text": "Style it as a recognizable button or link with clear interactive treatment"
+      },
+      {
+        "key": "C",
+        "text": "Move it into a paragraph"
+      },
+      {
+        "key": "D",
+        "text": "Use a lighter gray than surrounding text"
+      }
+    ],
+    "answer": "B",
+    "why": "A signifier is a perceivable cue that communicates where or how an action can happen. A clear button or link treatment makes the affordance easier to notice.",
+    "takeaway": "Signifiers: make interactive possibilities visible rather than relying on users to guess."
+  },
+  {
+    "number": 14,
+    "module": "UX PSYCHOLOGY & INTERACTION",
+    "question": "A user taps \"Save\" on a long form. Nothing appears to happen, so they tap repeatedly. What should the interface do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disable the button with no explanation"
+      },
+      {
+        "key": "B",
+        "text": "Provide a clear saving state followed by a success confirmation"
+      },
+      {
+        "key": "C",
+        "text": "Navigate away immediately, even if saving is incomplete"
+      },
+      {
+        "key": "D",
+        "text": "Change the button color randomly"
+      }
+    ],
+    "answer": "B",
+    "why": "Timely system feedback tells people that their action was received and whether it succeeded. It reduces uncertainty and repeated actions.",
+    "takeaway": "Visibility of system status: keep users informed about what the system is doing."
+  },
+  {
+    "number": 15,
+    "module": "UX PSYCHOLOGY & INTERACTION",
+    "question": "A user accidentally removes an item from a task list. Which response supports recovery without interrupting every routine action?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Show a brief confirmation message with an Undo action"
+      },
+      {
+        "key": "B",
+        "text": "Permanently delete the item with no message"
+      },
+      {
+        "key": "C",
+        "text": "Require a five-step confirmation for every edit"
+      },
+      {
+        "key": "D",
+        "text": "Hide the task list after deletion"
+      }
+    ],
+    "answer": "A",
+    "why": "An Undo option offers a quick recovery path for a reversible action. This can prevent the cost and friction of excessive confirmation dialogs.",
+    "takeaway": "Design for recovery: make common mistakes easy to reverse."
+  },
+  {
+    "number": 16,
+    "module": "INFORMATION ARCHITECTURE & FLOWS",
+    "question": "Users disagree about which items belong under \"Account,\" \"Preferences\" and \"Privacy.\" You want to learn how they naturally group the content. Which method fits?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Card sorting"
+      },
+      {
+        "key": "B",
+        "text": "A/B testing button colors"
+      },
+      {
+        "key": "C",
+        "text": "First-click testing on the current design only"
+      },
+      {
+        "key": "D",
+        "text": "A performance benchmark"
+      }
+    ],
+    "answer": "A",
+    "why": "Card sorting asks participants to organize content into groups and can reveal their mental models and useful category labels.",
+    "takeaway": "Card sorting: discover how people expect information to be grouped."
+  },
+  {
+    "number": 17,
+    "module": "INFORMATION ARCHITECTURE & FLOWS",
+    "question": "A settings menu has been reorganized. Before designing its visual interface, you want to check whether people can find \"Download my data\" in the proposed hierarchy. What should you run?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A tree test using the text-only navigation structure"
+      },
+      {
+        "key": "B",
+        "text": "A color contrast audit"
+      },
+      {
+        "key": "C",
+        "text": "A five-second logo test"
+      },
+      {
+        "key": "D",
+        "text": "A diary study about daily routines"
+      }
+    ],
+    "answer": "A",
+    "why": "Tree testing evaluates whether people can find information in a proposed hierarchy without the influence of visual styling or page layout.",
+    "takeaway": "Tree testing: validate findability in the structure before polishing the interface."
+  },
+  {
+    "number": 18,
+    "module": "INFORMATION ARCHITECTURE & FLOWS",
+    "question": "Customers say returning a product is frustrating, but the process spans the order page, courier pickup and refund status. What should the team map?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only the return button"
+      },
+      {
+        "key": "B",
+        "text": "The end-to-end customer journey, including channels, steps and pain points"
+      },
+      {
+        "key": "C",
+        "text": "The color palette of the order page"
+      },
+      {
+        "key": "D",
+        "text": "The developer task list"
+      }
+    ],
+    "answer": "B",
+    "why": "A journey map makes the end-to-end experience visible across touchpoints. It helps teams identify issues that sit between screens or departments.",
+    "takeaway": "Journey mapping: design the whole experience, not just one interface."
+  },
+  {
+    "number": 19,
+    "module": "INFORMATION ARCHITECTURE & FLOWS",
+    "question": "An online store has 2,000 headphones. Shoppers often know the features they need but cannot narrow the results. What would help most?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add relevant filters such as price, connection type and noise cancellation"
+      },
+      {
+        "key": "B",
+        "text": "Randomize the result order"
+      },
+      {
+        "key": "C",
+        "text": "Hide product specifications"
+      },
+      {
+        "key": "D",
+        "text": "Show fewer products without explaining why"
+      }
+    ],
+    "answer": "A",
+    "why": "Faceted filters let people progressively narrow a large set using attributes relevant to their decision. They should use clear labels and reflect real product data.",
+    "takeaway": "Faceted navigation: help users narrow large collections by meaningful attributes."
+  },
+  {
+    "number": 20,
+    "module": "INFORMATION ARCHITECTURE & FLOWS",
+    "question": "A new project-management account has no projects yet. Which empty state best helps a first-time user?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A completely blank page"
+      },
+      {
+        "key": "B",
+        "text": "\"No data\" with no next step"
+      },
+      {
+        "key": "C",
+        "text": "A short explanation of what belongs here, plus a clear \"Create your first project\" action"
+      },
+      {
+        "key": "D",
+        "text": "A long technical explanation of the database"
+      }
+    ],
+    "answer": "C",
+    "why": "A useful empty state explains the situation and gives the user a next step. It can turn a blank screen into guided onboarding.",
+    "takeaway": "Empty-state design: explain, reassure and guide the next action."
+  },
+  {
+    "number": 21,
+    "module": "UI DESIGN & DESIGN SYSTEMS",
+    "question": "On a donation page, the primary action is difficult to notice because the heading, helper text, secondary links and button all have similar visual weight. What should the designer do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase the number of decorative elements"
+      },
+      {
+        "key": "B",
+        "text": "Create a clearer hierarchy using size, contrast, spacing and emphasis"
+      },
+      {
+        "key": "C",
+        "text": "Make every element bold"
+      },
+      {
+        "key": "D",
+        "text": "Remove all supporting information"
+      }
+    ],
+    "answer": "B",
+    "why": "Visual hierarchy helps people understand what is most important and what to do next. Multiple competing focal points weaken that guidance.",
+    "takeaway": "Visual hierarchy: make the most important action easiest to find."
+  },
+  {
+    "number": 22,
+    "module": "UI DESIGN & DESIGN SYSTEMS",
+    "question": "A product has six slightly different purple button colors across screens. The team wants consistent updates without editing each screen individually. What should it establish?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Design tokens for shared color values and semantic roles"
+      },
+      {
+        "key": "B",
+        "text": "More one-off styles"
+      },
+      {
+        "key": "C",
+        "text": "A screenshot folder"
+      },
+      {
+        "key": "D",
+        "text": "A rule that every designer picks a favorite purple"
+      }
+    ],
+    "answer": "A",
+    "why": "Design tokens store reusable design decisions such as color, spacing and typography values. Semantic tokens make consistent changes easier across a product.",
+    "takeaway": "Design tokens: store reusable design decisions instead of repeating raw values."
+  },
+  {
+    "number": 23,
+    "module": "UI DESIGN & DESIGN SYSTEMS",
+    "question": "A desktop dashboard uses a four-column data table. On a narrow phone, the columns become unreadable. What is the best response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shrink every text label until all columns fit"
+      },
+      {
+        "key": "B",
+        "text": "Adapt the layout for the smaller screen, prioritizing key information and suitable mobile patterns"
+      },
+      {
+        "key": "C",
+        "text": "Keep the desktop layout unchanged"
+      },
+      {
+        "key": "D",
+        "text": "Remove all data from mobile"
+      }
+    ],
+    "answer": "B",
+    "why": "Responsive design adapts content and interaction to the available space and context. It is not simply scaling a desktop layout down.",
+    "takeaway": "Responsive design: adapt the experience to the screen, not just the dimensions."
+  },
+  {
+    "number": 24,
+    "module": "UI DESIGN & DESIGN SYSTEMS",
+    "question": "A dashboard marks overdue tasks in red and completed tasks in green. Some users cannot distinguish the colors. What should be added?",
+    "options": [
+      {
+        "key": "A",
+        "text": "More shades of red and green only"
+      },
+      {
+        "key": "B",
+        "text": "Text labels or icons so status is not communicated by color alone"
+      },
+      {
+        "key": "C",
+        "text": "Smaller labels"
+      },
+      {
+        "key": "D",
+        "text": "Remove status information entirely"
+      }
+    ],
+    "answer": "B",
+    "why": "Color should not be the only way information is conveyed. Additional labels, symbols or patterns make status perceivable to more people.",
+    "takeaway": "Redundant encoding: communicate important meaning in more than one visual way."
+  },
+  {
+    "number": 25,
+    "module": "UI DESIGN & DESIGN SYSTEMS",
+    "question": "A design system has separate button components for every color and size combination. Updates are becoming inconsistent. What is a better model?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create a reusable button component with clearly defined variants and states"
+      },
+      {
+        "key": "B",
+        "text": "Duplicate every button on every screen"
+      },
+      {
+        "key": "C",
+        "text": "Stop documenting button behavior"
+      },
+      {
+        "key": "D",
+        "text": "Use screenshots instead of components"
+      }
+    ],
+    "answer": "A",
+    "why": "A component with controlled variants and states provides reuse while allowing legitimate differences, such as primary, secondary, disabled and loading.",
+    "takeaway": "Component variants: reuse a reliable base while documenting meaningful differences."
+  },
+  {
+    "number": 26,
+    "module": "ACCESSIBILITY & INCLUSIVE DESIGN",
+    "question": "A modal dialog opens, but keyboard users can still tab through links behind it. What should the team fix?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trap focus appropriately within the modal while it is open, and return focus when it closes"
+      },
+      {
+        "key": "B",
+        "text": "Remove the close button"
+      },
+      {
+        "key": "C",
+        "text": "Make the modal open only on hover"
+      },
+      {
+        "key": "D",
+        "text": "Hide the visible focus indicator"
+      }
+    ],
+    "answer": "A",
+    "why": "A modal dialog should manage keyboard focus so users can interact with its content without accidentally moving behind it. Focus should return to the invoking control when appropriate.",
+    "takeaway": "Focus management: keep keyboard navigation in the active task context."
+  },
+  {
+    "number": 27,
+    "module": "ACCESSIBILITY & INCLUSIVE DESIGN",
+    "question": "A product uses pale gray text on a white background for important instructions. Some users struggle to read it. What should be checked first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Whether the font is decorative"
+      },
+      {
+        "key": "B",
+        "text": "Text and background contrast against accessibility requirements"
+      },
+      {
+        "key": "C",
+        "text": "Whether the page has enough animations"
+      },
+      {
+        "key": "D",
+        "text": "Whether the text is centered"
+      }
+    ],
+    "answer": "B",
+    "why": "Insufficient contrast can make text difficult to perceive. Check the actual foreground and background contrast and adjust the colors while preserving the intended visual hierarchy.",
+    "takeaway": "Contrast check: visual subtlety should not come at the cost of readability."
+  },
+  {
+    "number": 28,
+    "module": "ACCESSIBILITY & INCLUSIVE DESIGN",
+    "question": "A sign-up form uses placeholder text as the only label for each input. Once users start typing, the hints disappear. What is the better pattern?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keep a persistent visible label associated with each input"
+      },
+      {
+        "key": "B",
+        "text": "Remove all labels"
+      },
+      {
+        "key": "C",
+        "text": "Use a different placeholder color for every field"
+      },
+      {
+        "key": "D",
+        "text": "Put all field names in the page footer"
+      }
+    ],
+    "answer": "A",
+    "why": "Persistent labels remain available while users enter data and provide a reliable name for assistive technologies when correctly associated with inputs.",
+    "takeaway": "Persistent labels: do not make users rely on disappearing hints to understand a field."
+  },
+  {
+    "number": 29,
+    "module": "ACCESSIBILITY & INCLUSIVE DESIGN",
+    "question": "Users frequently miss a tiny close icon in a mobile dialog. What should the designer consider?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase the interactive target area and provide enough separation from nearby controls"
+      },
+      {
+        "key": "B",
+        "text": "Make the icon thinner"
+      },
+      {
+        "key": "C",
+        "text": "Move it closer to other small icons"
+      },
+      {
+        "key": "D",
+        "text": "Remove the accessible name"
+      }
+    ],
+    "answer": "A",
+    "why": "Larger, well-spaced touch targets are easier to activate, especially for users with motor impairments or when using a device one-handed.",
+    "takeaway": "Touch target: design for fingers and real-world conditions, not just the visible icon."
+  },
+  {
+    "number": 30,
+    "module": "ACCESSIBILITY & INCLUSIVE DESIGN",
+    "question": "An automated accessibility checker reports no serious issues. Can the team conclude the flow is accessible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, automated tools detect every accessibility problem"
+      },
+      {
+        "key": "B",
+        "text": "No. Combine automated checks with keyboard, assistive-technology and user testing"
+      },
+      {
+        "key": "C",
+        "text": "Yes, if the design uses a popular font"
+      },
+      {
+        "key": "D",
+        "text": "No. Automated tools should never be used"
+      }
+    ],
+    "answer": "B",
+    "why": "Automated tools catch many detectable issues but cannot evaluate every aspect of understanding, task completion or assistive-technology behavior.",
+    "takeaway": "Accessibility is a practice: automate what you can and test the experience with people."
+  },
+  {
+    "number": 31,
+    "module": "PRODUCT THINKING & PRIORITIZATION",
+    "question": "A major customer asks for a customizable dashboard. Interviews reveal that their real difficulty is finding two critical reports quickly. What should the product designer do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Build the customizable dashboard exactly as requested"
+      },
+      {
+        "key": "B",
+        "text": "Explore the report-finding problem and test simpler ways to make those reports easier to access"
+      },
+      {
+        "key": "C",
+        "text": "Reject the request without investigation"
+      },
+      {
+        "key": "D",
+        "text": "Add every report to the home screen"
+      }
+    ],
+    "answer": "B",
+    "why": "Feature requests are clues, not complete requirements. Understanding the underlying job may reveal a simpler solution that serves more users.",
+    "takeaway": "Reframe the request: solve the user problem, not automatically the suggested feature."
+  },
+  {
+    "number": 32,
+    "module": "PRODUCT THINKING & PRIORITIZATION",
+    "question": "A startup wants to test whether local stores will accept online reservations. Which option is the best MVP approach?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Build a complete marketplace with loyalty, reviews and recommendations"
+      },
+      {
+        "key": "B",
+        "text": "Test the core reservation journey with a small number of stores and customers"
+      },
+      {
+        "key": "C",
+        "text": "Spend the entire budget polishing the logo"
+      },
+      {
+        "key": "D",
+        "text": "Wait until every possible feature is specified"
+      }
+    ],
+    "answer": "B",
+    "why": "A Minimum Viable Product is the smallest useful product or experiment that can test an important assumption and generate learning. It is not simply the smallest number of features.",
+    "takeaway": "MVP: minimize the build while maximizing validated learning."
+  },
+  {
+    "number": 33,
+    "module": "PRODUCT THINKING & PRIORITIZATION",
+    "question": "Your team has capacity for one improvement. Option A is requested by one executive but has little evidence. Option B addresses a frequent user problem and is aligned with the product goal. What should guide the decision?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Seniority of the person requesting the feature"
+      },
+      {
+        "key": "B",
+        "text": "Evidence of user impact, strategic alignment, effort and risk"
+      },
+      {
+        "key": "C",
+        "text": "Which option has the more exciting name"
+      },
+      {
+        "key": "D",
+        "text": "Whichever option is easiest to present"
+      }
+    ],
+    "answer": "B",
+    "why": "Prioritization should make trade-offs explicit. User impact, strategy, confidence, effort and risk provide a stronger basis than hierarchy or enthusiasm alone.",
+    "takeaway": "Prioritization is a trade-off: compare value, evidence, effort and strategic fit."
+  },
+  {
+    "number": 34,
+    "module": "PRODUCT THINKING & PRIORITIZATION",
+    "question": "Users love a proposed service and find it easy to use. However, each transaction costs the company more to deliver than it earns. Which product risk is most clearly unresolved?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usability risk"
+      },
+      {
+        "key": "B",
+        "text": "Value risk"
+      },
+      {
+        "key": "C",
+        "text": "Business viability risk"
+      },
+      {
+        "key": "D",
+        "text": "Visual design risk"
+      }
+    ],
+    "answer": "C",
+    "why": "Viability asks whether the solution can work for the business, including its economics and operating model. Strong desirability and usability do not guarantee sustainable value.",
+    "takeaway": "Product viability: a product must create value in a way the business can sustain."
+  },
+  {
+    "number": 35,
+    "module": "PRODUCT THINKING & PRIORITIZATION",
+    "question": "A product team has a goal to increase successful first-week activation. They have already collected several user pain points and possible features. What structure can help connect the outcome to opportunities, solutions and experiments?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opportunity Solution Tree"
+      },
+      {
+        "key": "B",
+        "text": "A mood board"
+      },
+      {
+        "key": "C",
+        "text": "A site map alone"
+      },
+      {
+        "key": "D",
+        "text": "A list of engineering estimates"
+      }
+    ],
+    "answer": "A",
+    "why": "An Opportunity Solution Tree connects a desired outcome to customer opportunities, possible solutions and experiments. It helps teams avoid jumping straight from a metric to a feature.",
+    "takeaway": "Opportunity Solution Tree: connect outcomes to customer needs, solutions and tests."
+  },
+  {
+    "number": 36,
+    "module": "METRICS & EXPERIMENTATION",
+    "question": "A redesigned checkout increases the number of users who click \"Pay,\" but payment failures also rise. What should the team do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Declare success based on button clicks"
+      },
+      {
+        "key": "B",
+        "text": "Review the primary outcome together with guardrail metrics such as successful payments and errors"
+      },
+      {
+        "key": "C",
+        "text": "Hide the payment-failure metric"
+      },
+      {
+        "key": "D",
+        "text": "Stop measuring checkout performance"
+      }
+    ],
+    "answer": "B",
+    "why": "A guardrail metric helps detect negative side effects while optimizing a primary outcome. Clicks alone do not prove that users completed a successful purchase.",
+    "takeaway": "Guardrail metrics: improve one outcome without quietly damaging another."
+  },
+  {
+    "number": 37,
+    "module": "METRICS & EXPERIMENTATION",
+    "question": "Many users start a subscription flow, but few reach the confirmation screen. You need to identify the step with the biggest loss. What should you examine?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A step-by-step conversion funnel, segmented where useful"
+      },
+      {
+        "key": "B",
+        "text": "The company logo engagement rate"
+      },
+      {
+        "key": "C",
+        "text": "The total number of app downloads only"
+      },
+      {
+        "key": "D",
+        "text": "The average screen brightness"
+      }
+    ],
+    "answer": "A",
+    "why": "Funnel analysis measures movement through a sequence of steps and helps identify where users drop off. Segmentation can reveal whether the issue affects particular devices or user groups.",
+    "takeaway": "Funnel analysis: find where progress breaks down, then investigate why."
+  },
+  {
+    "number": 38,
+    "module": "METRICS & EXPERIMENTATION",
+    "question": "An A/B test has run for one day and version B is briefly ahead. The sample is small and weekday behavior may differ. What is the best next step?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ship B immediately"
+      },
+      {
+        "key": "B",
+        "text": "Continue according to a pre-defined test plan until there is enough reliable evidence, while monitoring guardrails"
+      },
+      {
+        "key": "C",
+        "text": "Change the test variants every few hours"
+      },
+      {
+        "key": "D",
+        "text": "Stop the test because the first result is exciting"
+      }
+    ],
+    "answer": "B",
+    "why": "Early fluctuations in a small sample can be misleading. A sound experiment uses a planned duration or stopping rule, adequate evidence and relevant guardrail checks.",
+    "takeaway": "Experiment discipline: decide how you will judge the test before looking for a winner."
+  },
+  {
+    "number": 39,
+    "module": "METRICS & EXPERIMENTATION",
+    "question": "A collaboration app wants a metric that reflects the core value users receive. Which is the best starting point for a North Star Metric?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Number of times the logo is displayed"
+      },
+      {
+        "key": "B",
+        "text": "Number of meaningful projects that teams successfully complete using the product"
+      },
+      {
+        "key": "C",
+        "text": "Total number of color themes available"
+      },
+      {
+        "key": "D",
+        "text": "Number of internal meetings held by the company"
+      }
+    ],
+    "answer": "B",
+    "why": "A North Star Metric should represent the value delivered to customers and connect to sustainable product growth. The exact metric depends on the product's value proposition.",
+    "takeaway": "North Star Metric: measure value received, not activity that merely looks impressive."
+  },
+  {
+    "number": 40,
+    "module": "METRICS & EXPERIMENTATION",
+    "question": "A fitness app has many new sign-ups, but the team wants to know whether users return in the weeks after joining. Which analysis is most useful?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retention cohorts grouped by sign-up period"
+      },
+      {
+        "key": "B",
+        "text": "A count of all downloads since launch"
+      },
+      {
+        "key": "C",
+        "text": "The number of buttons on the home screen"
+      },
+      {
+        "key": "D",
+        "text": "The total size of the app store listing"
+      }
+    ],
+    "answer": "A",
+    "why": "Cohort retention tracks groups of users over time, helping the team see whether people continue to return after first using the product.",
+    "takeaway": "Cohort analysis: compare how groups behave over time, not just totals."
+  },
+  {
+    "number": 41,
+    "module": "COLLABORATION & PRODUCT DELIVERY",
+    "question": "An engineer says a proposed animation will be expensive and may slow down older devices. What is the best response from the designer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insist that the mockup must be implemented exactly"
+      },
+      {
+        "key": "B",
+        "text": "Understand the user purpose, explore lighter alternatives and agree on an acceptable experience with engineering"
+      },
+      {
+        "key": "C",
+        "text": "Remove all motion without discussion"
+      },
+      {
+        "key": "D",
+        "text": "Ask the stakeholder to overrule engineering"
+      }
+    ],
+    "answer": "B",
+    "why": "Design and engineering should collaborate on the outcome and constraints. A simpler implementation may preserve the user benefit with lower performance or delivery cost.",
+    "takeaway": "Collaborative feasibility: protect the user outcome while adapting the implementation."
+  },
+  {
+    "number": 42,
+    "module": "COLLABORATION & PRODUCT DELIVERY",
+    "question": "A developer receives a polished screen but is unsure how loading, error, disabled and success states should behave. What should the designer provide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only a higher-resolution screenshot"
+      },
+      {
+        "key": "B",
+        "text": "Component states, interaction behavior, edge cases and relevant responsive rules"
+      },
+      {
+        "key": "C",
+        "text": "A link to an unrelated inspiration board"
+      },
+      {
+        "key": "D",
+        "text": "A note saying \"use your judgment\""
+      }
+    ],
+    "answer": "B",
+    "why": "A useful handoff communicates behavior and edge cases, not just appearance. Shared components and clear acceptance criteria reduce implementation ambiguity.",
+    "takeaway": "Design handoff: specify states and behavior, not only the happy-path screen."
+  },
+  {
+    "number": 43,
+    "module": "COLLABORATION & PRODUCT DELIVERY",
+    "question": "In a release candidate, the primary button wraps onto two lines on a supported small phone and overlaps nearby text. What should the designer do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore it because the desktop version is correct"
+      },
+      {
+        "key": "B",
+        "text": "Reproduce the issue, document the device and conditions, assess severity and work with engineering on a fix"
+      },
+      {
+        "key": "C",
+        "text": "Change the design system without checking other screens"
+      },
+      {
+        "key": "D",
+        "text": "Ask users to rotate their phones permanently"
+      }
+    ],
+    "answer": "B",
+    "why": "Design QA checks the implemented experience against intended behavior across supported contexts. Clear reproduction details help the team resolve the issue efficiently.",
+    "takeaway": "Design QA: verify the real build across the conditions users actually experience."
+  },
+  {
+    "number": 44,
+    "module": "COLLABORATION & PRODUCT DELIVERY",
+    "question": "A stakeholder says, \"Make the primary button green. Green feels more trustworthy.\" There is no evidence yet that color is the issue. What should the designer do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Change it immediately because the stakeholder is senior"
+      },
+      {
+        "key": "B",
+        "text": "Clarify the goal, share relevant evidence and test the hypothesis if the decision matters"
+      },
+      {
+        "key": "C",
+        "text": "Refuse every visual suggestion"
+      },
+      {
+        "key": "D",
+        "text": "Add green to every component"
+      }
+    ],
+    "answer": "B",
+    "why": "A design critique should connect opinions to user needs, product goals and evidence. A stakeholder hypothesis can be tested without treating preference as proof.",
+    "takeaway": "Evidence-led critique: turn opinions into hypotheses that can be examined."
+  },
+  {
+    "number": 45,
+    "module": "COLLABORATION & PRODUCT DELIVERY",
+    "question": "A launch date is fixed and the team must reduce scope. Which approach best protects the product experience?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remove random screens until the project fits"
+      },
+      {
+        "key": "B",
+        "text": "Protect the core user journey and essential states, then defer lower-value enhancements"
+      },
+      {
+        "key": "C",
+        "text": "Keep every feature but remove usability testing"
+      },
+      {
+        "key": "D",
+        "text": "Ship incomplete payment and error flows"
+      }
+    ],
+    "answer": "B",
+    "why": "Scope reduction should preserve the product's essential value and safe completion of core tasks. Lower-priority enhancements can be staged for later releases.",
+    "takeaway": "Scope the release around the core journey, not around a random feature count."
+  },
+  {
+    "number": 46,
+    "module": "ETHICS, PRIVACY & RESPONSIBLE AI",
+    "question": "A subscription app makes signing up easy but hides cancellation under several confusing menus. What is the most responsible design response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Make cancellation equally clear and reasonably easy to find"
+      },
+      {
+        "key": "B",
+        "text": "Add more steps to discourage cancellation"
+      },
+      {
+        "key": "C",
+        "text": "Rename cancellation as an unrelated settings option"
+      },
+      {
+        "key": "D",
+        "text": "Use guilt-based messages to stop users leaving"
+      }
+    ],
+    "answer": "A",
+    "why": "A design should not manipulate users into staying. Clear, accessible cancellation supports user autonomy and trust.",
+    "takeaway": "Avoid dark patterns: do not use interface friction to undermine informed choice."
+  },
+  {
+    "number": 47,
+    "module": "ETHICS, PRIVACY & RESPONSIBLE AI",
+    "question": "A photo-editing app asks for camera access immediately on launch, before the user tries to take a photo. What is a better approach?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ask at the moment the user tries to use the camera and explain why access is needed"
+      },
+      {
+        "key": "B",
+        "text": "Ask for every permission at first launch"
+      },
+      {
+        "key": "C",
+        "text": "Hide the purpose of the permission request"
+      },
+      {
+        "key": "D",
+        "text": "Block the entire app until every permission is granted"
+      }
+    ],
+    "answer": "A",
+    "why": "Contextual permission requests explain the value at the moment it is relevant. This supports informed choice and can improve comprehension.",
+    "takeaway": "Just-in-time permission: ask when needed and explain the benefit clearly."
+  },
+  {
+    "number": 48,
+    "module": "ETHICS, PRIVACY & RESPONSIBLE AI",
+    "question": "An AI assistant recommends a financial action, but its confidence is low and the user could lose money. What should the product do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Present the recommendation as certain to encourage action"
+      },
+      {
+        "key": "B",
+        "text": "Communicate uncertainty and limitations, provide relevant context and keep the user in control of the decision"
+      },
+      {
+        "key": "C",
+        "text": "Hide that AI generated the recommendation"
+      },
+      {
+        "key": "D",
+        "text": "Automatically execute the action without confirmation"
+      }
+    ],
+    "answer": "B",
+    "why": "High-impact recommendations need appropriate transparency, uncertainty communication and user control. The interface should not imply confidence that the system does not have.",
+    "takeaway": "Responsible AI: make limitations visible and preserve meaningful human control."
+  },
+  {
+    "number": 49,
+    "module": "ETHICS, PRIVACY & RESPONSIBLE AI",
+    "question": "A simple event-booking app asks for a user's exact date of birth, home address and employer, even though none is needed to book a ticket. What should the designer recommend?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collect everything in case it becomes useful later"
+      },
+      {
+        "key": "B",
+        "text": "Collect only the data needed for a clear purpose and explain that purpose to users"
+      },
+      {
+        "key": "C",
+        "text": "Make all fields mandatory"
+      },
+      {
+        "key": "D",
+        "text": "Hide the data collection in the terms page"
+      }
+    ],
+    "answer": "B",
+    "why": "Data minimization limits collection to what is necessary for the stated purpose. Less unnecessary data reduces privacy risk and builds trust.",
+    "takeaway": "Data minimization: if the product does not need the data, do not collect it."
+  },
+  {
+    "number": 50,
+    "module": "ETHICS, PRIVACY & RESPONSIBLE AI",
+    "question": "An AI assistant drafts a message to a customer and can send it automatically. The message may include pricing and delivery commitments. What is the safer interaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Send every generated message immediately"
+      },
+      {
+        "key": "B",
+        "text": "Show the draft, highlight important details and ask the user to review and confirm before sending"
+      },
+      {
+        "key": "C",
+        "text": "Hide the generated text after creation"
+      },
+      {
+        "key": "D",
+        "text": "Remove the ability to edit the message"
+      }
+    ],
+    "answer": "B",
+    "why": "When an AI action can create a meaningful external consequence, review and confirmation give people a chance to catch errors and retain control.",
+    "takeaway": "Human-in-the-loop: keep people involved when automated actions have real consequences."
+  }
+]

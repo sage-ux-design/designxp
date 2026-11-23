@@ -1,0 +1,352 @@
+{
+  "1": {
+    "conceptId": "start-with-the-problem",
+    "category": "Problem Framing",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "2": {
+    "conceptId": "jobs-to-be-done",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "3": {
+    "conceptId": "assumption-mapping",
+    "category": "Problem Framing",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "4": {
+    "conceptId": "neutral-research-questions",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "5": {
+    "conceptId": "prototype-to-learn",
+    "category": "Problem Framing",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "6": {
+    "conceptId": "qual-vs-quant",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "7": {
+    "conceptId": "diary-study",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "8": {
+    "conceptId": "usability-testing",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "9": {
+    "conceptId": "triangulation",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "10": {
+    "conceptId": "participant-recruiting",
+    "category": "User Research",
+    "gameMode": "research-detective",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "11": {
+    "conceptId": "progressive-disclosure",
+    "category": "UX Psychology",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "12": {
+    "conceptId": "recognition-over-recall",
+    "category": "UX Psychology",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "13": {
+    "conceptId": "signifiers",
+    "category": "UX Psychology",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "14": {
+    "conceptId": "system-feedback",
+    "category": "UX Psychology",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "15": {
+    "conceptId": "error-recovery",
+    "category": "UX Psychology",
+    "gameMode": "spot-the-ux",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "16": {
+    "conceptId": "card-sorting",
+    "category": "Information Architecture",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "17": {
+    "conceptId": "tree-testing",
+    "category": "Information Architecture",
+    "gameMode": "research-detective",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "18": {
+    "conceptId": "journey-mapping",
+    "category": "Information Architecture",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "19": {
+    "conceptId": "faceted-navigation",
+    "category": "Information Architecture",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "20": {
+    "conceptId": "empty-states",
+    "category": "UX Writing",
+    "gameMode": "copy-doctor",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "21": {
+    "conceptId": "visual-hierarchy",
+    "category": "Visual Design",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "22": {
+    "conceptId": "design-tokens",
+    "category": "Design Systems",
+    "gameMode": "design-lingo",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "23": {
+    "conceptId": "responsive-design",
+    "category": "Visual Design",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "24": {
+    "conceptId": "redundant-encoding",
+    "category": "Accessibility",
+    "gameMode": "spot-the-ux",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "25": {
+    "conceptId": "component-variants",
+    "category": "Design Systems",
+    "gameMode": "design-lingo",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "26": {
+    "conceptId": "focus-management",
+    "category": "Accessibility",
+    "gameMode": "spot-the-ux",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "27": {
+    "conceptId": "color-contrast",
+    "category": "Accessibility",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "28": {
+    "conceptId": "persistent-labels",
+    "category": "Accessibility",
+    "gameMode": "copy-doctor",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "29": {
+    "conceptId": "touch-targets",
+    "category": "Accessibility",
+    "gameMode": "spot-the-ux",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "30": {
+    "conceptId": "accessibility-testing",
+    "category": "Accessibility",
+    "gameMode": "research-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "31": {
+    "conceptId": "reframe-the-request",
+    "category": "Product Strategy",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "32": {
+    "conceptId": "mvp",
+    "category": "Product Strategy",
+    "gameMode": "product-detective",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "33": {
+    "conceptId": "prioritization",
+    "category": "Product Strategy",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "34": {
+    "conceptId": "viability-risk",
+    "category": "Product Strategy",
+    "gameMode": "product-detective",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "35": {
+    "conceptId": "opportunity-solution-tree",
+    "category": "Product Strategy",
+    "gameMode": "product-detective",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "36": {
+    "conceptId": "guardrail-metrics",
+    "category": "Metrics",
+    "gameMode": "product-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "37": {
+    "conceptId": "funnel-analysis",
+    "category": "Metrics",
+    "gameMode": "product-detective",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "38": {
+    "conceptId": "experiment-discipline",
+    "category": "Metrics",
+    "gameMode": "product-detective",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "39": {
+    "conceptId": "north-star-metric",
+    "category": "Metrics",
+    "gameMode": "product-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "40": {
+    "conceptId": "retention-cohorts",
+    "category": "Metrics",
+    "gameMode": "product-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "41": {
+    "conceptId": "collaborative-feasibility",
+    "category": "Collaboration",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "42": {
+    "conceptId": "design-handoff",
+    "category": "Collaboration",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "43": {
+    "conceptId": "design-qa",
+    "category": "Collaboration",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "44": {
+    "conceptId": "evidence-led-critique",
+    "category": "Collaboration",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "45": {
+    "conceptId": "scope-management",
+    "category": "Collaboration",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "46": {
+    "conceptId": "dark-patterns",
+    "category": "Ethics",
+    "gameMode": "design-lingo",
+    "difficulty": "easy",
+    "questionType": "single"
+  },
+  "47": {
+    "conceptId": "just-in-time-permissions",
+    "category": "Ethics",
+    "gameMode": "copy-doctor",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "48": {
+    "conceptId": "ai-transparency",
+    "category": "Ethics",
+    "gameMode": "what-would-you-do",
+    "difficulty": "hard",
+    "questionType": "single"
+  },
+  "49": {
+    "conceptId": "data-minimization",
+    "category": "Ethics",
+    "gameMode": "product-detective",
+    "difficulty": "medium",
+    "questionType": "single"
+  },
+  "50": {
+    "conceptId": "human-in-the-loop",
+    "category": "Ethics",
+    "gameMode": "what-would-you-do",
+    "difficulty": "medium",
+    "questionType": "single"
+  }
+}

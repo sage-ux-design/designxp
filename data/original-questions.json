@@ -1,0 +1,321 @@
+[
+  {
+    "id": "dx-lingo-01",
+    "module": "DESIGNXP ORIGINAL / UX LAWS",
+    "question": "A settings page shows 25 equally prominent options, and testers take a long time to decide what to tap. Which principle best explains the delay?",
+    "options": [
+      { "key": "A", "text": "Hick's Law" },
+      { "key": "B", "text": "Fitts's Law" },
+      { "key": "C", "text": "Jakob's Law" },
+      { "key": "D", "text": "The Doherty Threshold" }
+    ],
+    "correctAnswers": ["A"],
+    "explanation": "Hick's Law describes how decision time grows as the number and complexity of choices increases. Grouping, prioritizing or progressively revealing options shortens that decision.",
+    "takeaway": "Hick's Law: fewer, clearer choices lead to faster decisions.",
+    "conceptId": "hicks-law",
+    "category": "UX Laws",
+    "difficulty": "easy",
+    "gameMode": "design-lingo",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-lingo-02",
+    "module": "DESIGNXP ORIGINAL / UX LAWS",
+    "question": "True or false: according to Fitts's Law, a large button close to where the pointer or thumb already is will be faster to hit than a small button far away.",
+    "options": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "correctAnswers": ["T"],
+    "explanation": "Fitts's Law says the time to reach a target depends on its distance and size. Bigger, closer targets are quicker and more accurate to hit, which is why primary actions sit within easy reach.",
+    "takeaway": "Fitts's Law: make important targets big and easy to reach.",
+    "conceptId": "fitts-law",
+    "category": "UX Laws",
+    "difficulty": "easy",
+    "gameMode": "design-lingo",
+    "questionType": "true-false"
+  },
+  {
+    "id": "dx-lingo-03",
+    "module": "DESIGNXP ORIGINAL / VISUAL DESIGN",
+    "question": "Look at this sign-up form. Each label sits exactly halfway between two fields, so people are not sure which field it describes. Which Gestalt principle is being broken?",
+    "options": [
+      { "key": "A", "text": "Proximity" },
+      { "key": "B", "text": "Closure" },
+      { "key": "C", "text": "Continuity" },
+      { "key": "D", "text": "Figure and ground" }
+    ],
+    "correctAnswers": ["A"],
+    "explanation": "The principle of proximity says elements that are close together are perceived as related. A label should sit clearly closer to its own field than to the next one.",
+    "takeaway": "Proximity: spacing tells people what belongs together.",
+    "conceptId": "gestalt-proximity",
+    "category": "Visual Design",
+    "difficulty": "medium",
+    "gameMode": "design-lingo",
+    "questionType": "visual",
+    "visual": "proximity"
+  },
+  {
+    "id": "dx-lingo-04",
+    "module": "DESIGNXP ORIGINAL / UX PSYCHOLOGY",
+    "question": "In interaction design, what does the term \"affordance\" describe?",
+    "options": [
+      { "key": "A", "text": "The visual style of a brand" },
+      { "key": "B", "text": "The actions an object makes possible for a person" },
+      { "key": "C", "text": "The time it takes a page to load" },
+      { "key": "D", "text": "The cost of building a feature" }
+    ],
+    "correctAnswers": ["B"],
+    "explanation": "An affordance is the relationship between an object and a person that makes an action possible, such as a slider that can be dragged. Signifiers are the cues that communicate those affordances.",
+    "takeaway": "Affordance is what you can do; a signifier is how you know you can do it.",
+    "conceptId": "affordance",
+    "category": "UX Psychology",
+    "difficulty": "easy",
+    "gameMode": "design-lingo",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-lingo-05",
+    "module": "DESIGNXP ORIGINAL / INFORMATION ARCHITECTURE",
+    "question": "In a help center, users click \"Resources\", then \"More\", then go back, then try \"Explore\". None of the labels hint at what is behind them. Which concept is weak here?",
+    "options": [
+      { "key": "A", "text": "Skeuomorphism" },
+      { "key": "B", "text": "Information scent" },
+      { "key": "C", "text": "Color contrast" },
+      { "key": "D", "text": "Responsive layout" }
+    ],
+    "correctAnswers": ["B"],
+    "explanation": "Information scent is how well labels and cues predict what a person will find if they follow a path. Vague labels like \"More\" give a weak scent, so people guess and backtrack.",
+    "takeaway": "Information scent: labels should promise what the next page delivers.",
+    "conceptId": "information-scent",
+    "category": "Information Architecture",
+    "difficulty": "medium",
+    "gameMode": "design-lingo",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-lingo-06",
+    "module": "DESIGNXP ORIGINAL / VISUAL DESIGN",
+    "question": "True or false: skeuomorphism means designing digital elements to imitate their real-world counterparts, such as a notes app that looks like lined paper.",
+    "options": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "correctAnswers": ["T"],
+    "explanation": "Skeuomorphic design borrows the look and cues of physical objects so people can transfer what they already know. Flat design moved away from heavy realism, but subtle skeuomorphic cues still help.",
+    "takeaway": "Skeuomorphism: borrow real-world cues when they make an interface easier to understand.",
+    "conceptId": "skeuomorphism",
+    "category": "Visual Design",
+    "difficulty": "easy",
+    "gameMode": "design-lingo",
+    "questionType": "true-false"
+  },
+  {
+    "id": "dx-lingo-07",
+    "module": "DESIGNXP ORIGINAL / UX PSYCHOLOGY",
+    "question": "Which of these changes would reduce cognitive load on a checkout form? Select all that apply.",
+    "options": [
+      { "key": "A", "text": "Group related fields into clearly titled sections" },
+      { "key": "B", "text": "Pre-fill information the product already knows, such as the shipping country" },
+      { "key": "C", "text": "Add an animated promotional banner above the form" },
+      { "key": "D", "text": "Ask for the email address twice to double-check it" }
+    ],
+    "correctAnswers": ["A", "B"],
+    "explanation": "Cognitive load is the mental effort needed to use an interface. Grouping and smart defaults reduce effort, while moving banners and repeated questions add work without helping the task.",
+    "takeaway": "Cognitive load: remove effort that does not help people complete their task.",
+    "conceptId": "cognitive-load",
+    "category": "UX Psychology",
+    "difficulty": "medium",
+    "gameMode": "design-lingo",
+    "questionType": "multi"
+  },
+  {
+    "id": "dx-lingo-08",
+    "module": "DESIGNXP ORIGINAL / ETHICS",
+    "question": "Which of these are dark patterns? Select all that apply.",
+    "options": [
+      { "key": "A", "text": "A pre-ticked box that quietly adds travel insurance to a booking" },
+      { "key": "B", "text": "A decline link that reads \"No thanks, I don't like saving money\"" },
+      { "key": "C", "text": "A clear \"Cancel subscription\" link in account settings" },
+      { "key": "D", "text": "A \"deal ends in 5:00\" countdown that restarts every time the page reloads" }
+    ],
+    "correctAnswers": ["A", "B", "D"],
+    "explanation": "Sneaking items into a basket, confirmshaming and fake urgency all push people toward choices they did not intend. A clear cancellation path respects their decision.",
+    "takeaway": "Dark patterns trade long-term trust for short-term metrics.",
+    "conceptId": "confirmshaming",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "gameMode": "design-lingo",
+    "questionType": "multi"
+  },
+  {
+    "id": "dx-copy-01",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "A booking form shows the error message pictured here. Which rewrite is the most helpful?",
+    "options": [
+      { "key": "A", "text": "Something went wrong." },
+      { "key": "B", "text": "Enter the date as DD/MM/YYYY, for example 05/09/2026." },
+      { "key": "C", "text": "Invalid input!!!" },
+      { "key": "D", "text": "Error 422: validation_failed" }
+    ],
+    "correctAnswers": ["B"],
+    "explanation": "A good error message says what happened and how to fix it, in plain language, close to the problem. Codes and vague apologies leave people guessing.",
+    "takeaway": "Helpful errors explain the problem and the fix, without blame or jargon.",
+    "conceptId": "helpful-error-messages",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "visual",
+    "visual": "error-message"
+  },
+  {
+    "id": "dx-copy-02",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "The main button on a pricing page says \"Submit\". Which label best tells people what will happen when they press it?",
+    "options": [
+      { "key": "A", "text": "Submit" },
+      { "key": "B", "text": "Click here" },
+      { "key": "C", "text": "Start free trial" },
+      { "key": "D", "text": "OK" }
+    ],
+    "correctAnswers": ["C"],
+    "explanation": "Specific action labels set expectations and reduce hesitation. A verb plus an object, such as \"Start free trial\", describes the outcome; generic words like \"Submit\" do not.",
+    "takeaway": "Label buttons with the outcome, not the mechanics.",
+    "conceptId": "specific-cta-labels",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-copy-03",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "A global sign-up form asks for \"First name\" and \"Last name\", both required. Some people have a single name or names in a different order. Which approach is most inclusive?",
+    "options": [
+      { "key": "A", "text": "Keep both fields required" },
+      { "key": "B", "text": "Use one \"Full name\" field, and ask separately what to call them if needed" },
+      { "key": "C", "text": "Ask for a \"Christian name\"" },
+      { "key": "D", "text": "Reject names shorter than three letters" }
+    ],
+    "correctAnswers": ["B"],
+    "explanation": "Name formats vary widely across cultures. A single full-name field, plus an optional \"what should we call you?\" field, avoids forcing people into a structure that does not fit them.",
+    "takeaway": "Inclusive language: design for the full range of people who will use the product.",
+    "conceptId": "inclusive-language",
+    "category": "UX Writing",
+    "difficulty": "medium",
+    "gameMode": "copy-doctor",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-copy-04",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "True or false: showing password rules before someone types (\"At least 8 characters, including a number\") is better than revealing the rules only after an error.",
+    "options": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "correctAnswers": ["T"],
+    "explanation": "Microcopy that sets expectations up front prevents errors instead of punishing them. People should not have to fail once to learn the rules.",
+    "takeaway": "Microcopy: the smallest words often prevent the biggest frustrations.",
+    "conceptId": "microcopy",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "true-false"
+  },
+  {
+    "id": "dx-copy-05",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "A shopper searches for \"wireless hedphones\" and sees the screen pictured here. Which empty-state copy helps most?",
+    "options": [
+      { "key": "A", "text": "No results." },
+      { "key": "B", "text": "Oops! Nothing here :(" },
+      { "key": "C", "text": "No matches for \"wireless hedphones\". Check the spelling or try fewer filters." },
+      { "key": "D", "text": "Query returned 0 rows." }
+    ],
+    "correctAnswers": ["C"],
+    "explanation": "A useful empty state confirms what happened and suggests a next step. Echoing the query helps people spot the typo, and the suggestion gives them a way forward.",
+    "takeaway": "Every empty state should offer a way forward.",
+    "conceptId": "empty-states",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "visual",
+    "visual": "empty-search"
+  },
+  {
+    "id": "dx-copy-06",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "A dialog asks \"Delete project?\" with two buttons, \"Yes\" and \"No\". Which button pair is clearer?",
+    "options": [
+      { "key": "A", "text": "\"Delete project\" and \"Keep project\"" },
+      { "key": "B", "text": "\"OK\" and \"Cancel\"" },
+      { "key": "C", "text": "\"Yes\" and \"No\" in bold" },
+      { "key": "D", "text": "\"Proceed\" and \"Abort\"" }
+    ],
+    "correctAnswers": ["A"],
+    "explanation": "Descriptive buttons let people act without re-reading the question. \"Delete project\" and \"Keep project\" make the consequence of each choice unmistakable.",
+    "takeaway": "Dialog buttons should make sense even if nobody reads the question.",
+    "conceptId": "descriptive-dialog-actions",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "single"
+  },
+  {
+    "id": "dx-copy-07",
+    "module": "DESIGNXP ORIGINAL / UX WRITING",
+    "question": "Which onboarding tooltip copy follows good UX writing practice? Select all that apply.",
+    "options": [
+      { "key": "A", "text": "Tap + to add your first expense." },
+      { "key": "B", "text": "Leverage our synergistic expense-ingestion module." },
+      { "key": "C", "text": "You can change categories any time in Settings." },
+      { "key": "D", "text": "IMPORTANT!!! READ THIS BEFORE CONTINUING!!!" }
+    ],
+    "correctAnswers": ["A", "C"],
+    "explanation": "Plain language is short, specific and calm. It tells people what to do or what they can do, without jargon or shouting.",
+    "takeaway": "Plain language: write so people understand it the first time they read it.",
+    "conceptId": "plain-language",
+    "category": "UX Writing",
+    "difficulty": "easy",
+    "gameMode": "copy-doctor",
+    "questionType": "multi"
+  },
+  {
+    "id": "dx-spot-01",
+    "module": "DESIGNXP ORIGINAL / UX PSYCHOLOGY",
+    "question": "Study this account-deletion dialog. What is the main usability problem?",
+    "options": [
+      { "key": "A", "text": "The dialog has a title" },
+      { "key": "B", "text": "The safe and destructive actions look identical, so the risky choice is not distinguished" },
+      { "key": "C", "text": "The text is left-aligned" },
+      { "key": "D", "text": "There are only two buttons" }
+    ],
+    "correctAnswers": ["B"],
+    "explanation": "Destructive actions need a distinct, deliberate treatment, such as a danger color and a specific label, while the safe option should be easy to choose. Identical styling invites costly mistakes.",
+    "takeaway": "Make destructive actions look different from safe ones.",
+    "conceptId": "destructive-actions",
+    "category": "Visual Design",
+    "difficulty": "easy",
+    "gameMode": "spot-the-ux",
+    "questionType": "visual",
+    "visual": "competing-buttons"
+  },
+  {
+    "id": "dx-spot-02",
+    "module": "DESIGNXP ORIGINAL / UX PSYCHOLOGY",
+    "question": "True or false: most people read every word of a web page from top to bottom before they act.",
+    "options": [
+      { "key": "T", "text": "True" },
+      { "key": "F", "text": "False" }
+    ],
+    "correctAnswers": ["F"],
+    "explanation": "People usually scan, picking out headings, keywords and links that match their goal. Clear headings, front-loaded sentences and short paragraphs make content scannable.",
+    "takeaway": "Design for scanning: people hunt for what they need rather than reading everything.",
+    "conceptId": "scannability",
+    "category": "UX Psychology",
+    "difficulty": "easy",
+    "gameMode": "spot-the-ux",
+    "questionType": "true-false"
+  }
+]
